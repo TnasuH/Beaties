@@ -1,14 +1,8 @@
-//
-//  BeatiesApp.swift
-//  Beaties Watch App
-//
-//  Created by Geoff Pado on 5/28/23.
-//
-
 import SwiftUI
+import TopLevel
 
 @main
-struct Beaties_Watch_AppApp: App {
+struct BeatiesApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
