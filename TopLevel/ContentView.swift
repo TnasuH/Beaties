@@ -3,13 +3,19 @@ import SwiftUI
 
 public struct ContentView: View {
     @State private var hasAccess: Bool = false
-    @State private var loadingState: LoadingState = .loading
+    @State private var loadingState: LoadingState
     private let repository = HealthRepository()
 
-    public init() {}
+    public init() {
+        self.init(loadingState: .loading)
+    }
+
+    fileprivate init(loadingState: LoadingState) {
+        _loadingState = .init(initialValue: loadingState)
+    }
 
     public var body: some View {
-        Group {
+        NavigationStack {
             switch loadingState {
             case .loading:
                 ProgressView()
@@ -48,6 +54,6 @@ public struct ContentView: View {
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        ContentView(loadingState: .accessAllowed)
     }
 }

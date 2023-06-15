@@ -1,4 +1,3 @@
-import HealthConnect
 import SwiftUI
 
 struct HealthRepositoryKey: EnvironmentKey {
@@ -6,7 +5,7 @@ struct HealthRepositoryKey: EnvironmentKey {
 }
 
 extension EnvironmentValues {
-    var healthRepository: HealthRepository {
+    public var healthRepository: HealthRepository {
         get { self[HealthRepositoryKey.self] }
         set { self[HealthRepositoryKey.self] = newValue }
     }
