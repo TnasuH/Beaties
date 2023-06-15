@@ -3,9 +3,11 @@ import SwiftUI
 struct PrimaryContainerBackgroundViewModifier: ViewModifier {
     func body(content: Content) -> some View {
         if #available(watchOS 10, *) {
-            content.containerBackground(.orange, for: .navigation)
+            content
+                .containerBackground(Color("Primary", bundle: .main), for: .navigation)
         } else {
             content
+                .ignoresSafeArea(edges: .bottom)
         }
     }
 }

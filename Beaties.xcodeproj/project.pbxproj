@@ -31,6 +31,7 @@
 		0489D55D2A240B180079932E /* NumberValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0489D55C2A240B180079932E /* NumberValue.swift */; };
 		0489D55F2A240B330079932E /* NumberButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0489D55E2A240B320079932E /* NumberButton.swift */; };
 		04ABFC092A3A8F36001AACF7 /* PrimaryContainerBackgroundViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04ABFC082A3A8F36001AACF7 /* PrimaryContainerBackgroundViewModifier.swift */; };
+		04ABFC0B2A3ACB5F001AACF7 /* AddEntryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04ABFC0A2A3ACB5F001AACF7 /* AddEntryButton.swift */; };
 		04B42EA02A23DEE700E68358 /* Beaties Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 04B42E9F2A23DEE700E68358 /* Beaties Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		04B42EA52A23DEE700E68358 /* BeatiesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B42EA42A23DEE700E68358 /* BeatiesApp.swift */; };
 		04B42EA92A23DEE800E68358 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04B42EA82A23DEE800E68358 /* Assets.xcassets */; };
@@ -42,6 +43,8 @@
 		04EFFEFD2A26CC6F008F5358 /* Complication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EFFEFC2A26CC6F008F5358 /* Complication.swift */; };
 		04EFFEFF2A26CC70008F5358 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04EFFEFE2A26CC70008F5358 /* Assets.xcassets */; };
 		04EFFF032A26CC70008F5358 /* ComplicationExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 04EFFEF62A26CC6F008F5358 /* ComplicationExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		04FDA7842A3AD10A00D8A48C /* LegacyAddEntryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FDA7832A3AD10A00D8A48C /* LegacyAddEntryButton.swift */; };
+		04FDA7862A3AD5A700D8A48C /* LatestEntryText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FDA7852A3AD5A700D8A48C /* LatestEntryText.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -183,6 +186,7 @@
 		0489D55E2A240B320079932E /* NumberButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberButton.swift; sourceTree = "<group>"; };
 		0489D5602A26967A0079932E /* RepositoryKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoryKey.swift; sourceTree = "<group>"; };
 		04ABFC082A3A8F36001AACF7 /* PrimaryContainerBackgroundViewModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryContainerBackgroundViewModifier.swift; sourceTree = "<group>"; };
+		04ABFC0A2A3ACB5F001AACF7 /* AddEntryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEntryButton.swift; sourceTree = "<group>"; };
 		04B42E992A23DEE700E68358 /* Beaties.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Beaties.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04B42E9F2A23DEE700E68358 /* Beaties Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Beaties Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		04B42EA42A23DEE700E68358 /* BeatiesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeatiesApp.swift; sourceTree = "<group>"; };
@@ -195,6 +199,8 @@
 		04EFFEFC2A26CC6F008F5358 /* Complication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Complication.swift; sourceTree = "<group>"; };
 		04EFFEFE2A26CC70008F5358 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04EFFF002A26CC70008F5358 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04FDA7832A3AD10A00D8A48C /* LegacyAddEntryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LegacyAddEntryButton.swift; sourceTree = "<group>"; };
+		04FDA7852A3AD5A700D8A48C /* LatestEntryText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LatestEntryText.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -312,8 +318,11 @@
 			children = (
 				04B42EA62A23DEE700E68358 /* ContentView.swift */,
 				0489D5572A23ED1B0079932E /* PrimaryView.swift */,
+				04FDA7852A3AD5A700D8A48C /* LatestEntryText.swift */,
 				0489D55B2A240B110079932E /* Entry */,
 				04ABFC082A3A8F36001AACF7 /* PrimaryContainerBackgroundViewModifier.swift */,
+				04ABFC0A2A3ACB5F001AACF7 /* AddEntryButton.swift */,
+				04FDA7832A3AD10A00D8A48C /* LegacyAddEntryButton.swift */,
 			);
 			path = TopLevel;
 			sourceTree = "<group>";
@@ -695,8 +704,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04FDA7862A3AD5A700D8A48C /* LatestEntryText.swift in Sources */,
 				0489D5522A23ECAC0079932E /* ContentView.swift in Sources */,
+				04FDA7842A3AD10A00D8A48C /* LegacyAddEntryButton.swift in Sources */,
 				0489D5582A23ED1B0079932E /* PrimaryView.swift in Sources */,
+				04ABFC0B2A3ACB5F001AACF7 /* AddEntryButton.swift in Sources */,
 				0489D55D2A240B180079932E /* NumberValue.swift in Sources */,
 				0489D55F2A240B330079932E /* NumberButton.swift in Sources */,
 				04ABFC092A3A8F36001AACF7 /* PrimaryContainerBackgroundViewModifier.swift in Sources */,

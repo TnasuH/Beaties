@@ -4,7 +4,7 @@ import SwiftUI
 public struct ContentView: View {
     @State private var hasAccess: Bool = false
     @State private var loadingState: LoadingState
-    private let repository = HealthRepository()
+    private let repository = HealthKitRepository()
 
     public init() {
         self.init(loadingState: .loading)

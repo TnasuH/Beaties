@@ -1,7 +1,7 @@
 import SwiftUI
 
 struct HealthRepositoryKey: EnvironmentKey {
-    static let defaultValue = HealthRepository()
+    static let defaultValue: HealthRepository = HealthKitRepository()
 }
 
 extension EnvironmentValues {

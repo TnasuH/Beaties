@@ -1,7 +1,12 @@
 import Foundation
 import HealthKit
 
-public actor HealthRepository {
+public protocol HealthRepository {
+    func addGlucoseValue(_ value: Double) async throws
+    func samplesFromToday() async throws -> [GlucoseSample]
+}
+
+public actor HealthKitRepository: HealthRepository {
     private let store: HealthStore
     public init() {
         self.init(store: HKHealthStore())

@@ -46,15 +46,24 @@ public struct ChartView: View {
                 y: .value("Value", entry.value)).lineStyle(StrokeStyle(lineWidth: 5, lineJoin: .round))
         }
         .foregroundStyle(Color.white)
+//        .chartForeground
         .chartXAxis {
             AxisMarks(values: hours) {
-                AxisGridLine()
+                AxisGridLine().foregroundStyle(Color.white)
                 AxisValueLabel(format: .dateTime.hour())
+                    .font(.system(size: 10).weight(.bold))
+                    .foregroundStyle(Color.white)
             }
         }
         .chartYScale(domain: minAxisValue...maxAxisValue)
         .chartYAxis {
-            AxisMarks(values: axisValues)
+            AxisMarks(values: axisValues) {
+                AxisGridLine()
+                    .foregroundStyle(.white)
+                AxisValueLabel()
+                    .foregroundStyle(.white)
+                    .font(.system(size: 9).weight(.bold))
+            }
         }
     }
 }
