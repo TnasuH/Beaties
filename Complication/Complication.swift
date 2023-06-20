@@ -3,39 +3,44 @@ import WidgetKit
 
 struct Provider: TimelineProvider {
     func placeholder(in context: Context) -> SimpleEntry {
-        SimpleEntry(date: Date())
+        SimpleEntry()
     }
 
     func getSnapshot(in context: Context, completion: @escaping (SimpleEntry) -> ()) {
-        let entry = SimpleEntry(date: Date())
-        completion(entry)
+        completion(SimpleEntry())
     }
 
     func getTimeline(in context: Context, completion: @escaping (Timeline<Entry>) -> ()) {
-        var entries: [SimpleEntry] = []
-
-        // Generate a timeline consisting of five entries an hour apart, starting from the current date.
-        let currentDate = Date()
-        for hourOffset in 0 ..< 5 {
-            let entryDate = Calendar.current.date(byAdding: .hour, value: hourOffset, to: currentDate)!
-            let entry = SimpleEntry(date: entryDate)
-            entries.append(entry)
-        }
-
-        let timeline = Timeline(entries: entries, policy: .atEnd)
+        let timeline = Timeline(entries: [SimpleEntry()], policy: .never)
         completion(timeline)
     }
 }
 
 struct SimpleEntry: TimelineEntry {
-    let date: Date
+    let date = Date()
 }
 
 struct ComplicationEntryView : View {
-    var entry: Provider.Entry
+    @Environment(\.widgetFamily) var family
+    let entry: Provider.Entry
 
     var body: some View {
-        Image("Complication")
+        ZStack {
+            AccessoryWidgetBackground()
+            switch family {
+            case .accessoryInline: Text("120 mg/dL")
+            case .accessoryCorner:
+                Image("Complication").resizable()
+                    .aspectRatio(contentMode: .fit)
+            case .accessoryCircular:
+                Image("Complication").resizable()
+                    .aspectRatio(contentMode: .fit)
+            case .accessoryRectangular:
+                Text("foo")
+            @unknown default:
+                EmptyView()
+            }
+        }.widgetURL(URL(filePath: "/add"))
     }
 }
 
@@ -47,14 +52,17 @@ struct Complication: Widget {
         StaticConfiguration(kind: kind, provider: Provider()) { entry in
             ComplicationEntryView(entry: entry)
         }
+        .supportedFamilies([.accessoryCircular, .accessoryRectangular])
         .configurationDisplayName("My Widget")
         .description("This is an example widget.")
     }
 }
 
+@available(watchOS 10, *)
 struct Complication_Previews: PreviewProvider {
     static var previews: some View {
-        ComplicationEntryView(entry: SimpleEntry(date: Date()))
+        ComplicationEntryView(entry: SimpleEntry())
+            .containerBackground(Color("Primary", bundle: .main), for: .widget)
             .previewContext(WidgetPreviewContext(family: .accessoryCircular))
     }
 }

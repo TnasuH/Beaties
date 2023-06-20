@@ -74,12 +74,21 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
+            BlueprintIdentifier = "04EFFEF52A26CC6F008F5358"
+            BuildableName = "ComplicationExtension.appex"
+            BlueprintName = "ComplicationExtension"
+            ReferencedContainer = "container:Beaties.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
             BlueprintIdentifier = "04B42E9E2A23DEE700E68358"
             BuildableName = "Beaties Watch App.app"
             BlueprintName = "Beaties Watch App"
             ReferencedContainer = "container:Beaties.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
       <EnvironmentVariables>
          <EnvironmentVariable
             key = "_XCWidgetKind"
