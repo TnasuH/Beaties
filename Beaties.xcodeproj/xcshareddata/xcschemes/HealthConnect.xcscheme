@@ -14,23 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "04B42E9E2A23DEE700E68358"
-               BuildableName = "Beaties Watch App.app"
-               BlueprintName = "Beaties Watch App"
-               ReferencedContainer = "container:Beaties.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "04C35F6E2A429D2D00FEEF0E"
-               BuildableName = "Beaties iOS.app"
-               BlueprintName = "Beaties iOS"
+               BlueprintIdentifier = "0489D51B2A23DF790079932E"
+               BuildableName = "HealthConnectLegacy.framework"
+               BlueprintName = "HealthConnectLegacy"
                ReferencedContainer = "container:Beaties.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -48,7 +34,7 @@
             parallelizable = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "04D53CB42A42A43F00089723"
+               BlueprintIdentifier = "0489D5222A23DF790079932E"
                BuildableName = "HealthConnectTests.xctest"
                BlueprintName = "HealthConnectTests"
                ReferencedContainer = "container:Beaties.xcodeproj">
@@ -66,16 +52,6 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "04B42E9E2A23DEE700E68358"
-            BuildableName = "Beaties Watch App.app"
-            BlueprintName = "Beaties Watch App"
-            ReferencedContainer = "container:Beaties.xcodeproj">
-         </BuildableReference>
-      </BuildableProductRunnable>
    </LaunchAction>
    <ProfileAction
       buildConfiguration = "Release"
@@ -83,16 +59,15 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "04B42E9E2A23DEE700E68358"
-            BuildableName = "Beaties Watch App.app"
-            BlueprintName = "Beaties Watch App"
+            BlueprintIdentifier = "0489D51B2A23DF790079932E"
+            BuildableName = "HealthConnectLegacy.framework"
+            BlueprintName = "HealthConnectLegacy"
             ReferencedContainer = "container:Beaties.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

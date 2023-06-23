@@ -77,4 +77,10 @@ private struct PreviewHealthRepository: HealthRepository {
             GlucoseSample(id: UUID(), value: 120, date: Date())
         ]
     }
+
+    func samplesFromTwoWeeks() async throws -> [GlucoseSample] {
+        [
+            GlucoseSample(id: UUID(), value: 120, date: Date())
+        ]
+    }
 }

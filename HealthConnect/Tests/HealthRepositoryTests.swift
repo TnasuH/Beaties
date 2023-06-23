@@ -6,7 +6,7 @@ import XCTest
 class HealthRepositoryTests: XCTestCase {
     func testHasAccessReturnsFalseWhenDenied() async {
         let mockStore = MockHealthStore(authorization: .sharingDenied)
-        let repository = HealthRepository(store: mockStore)
+        let repository = HealthKitRepository(store: mockStore)
         let hasAccess = await repository.hasAccess
 
         XCTAssertFalse(hasAccess)
@@ -14,7 +14,7 @@ class HealthRepositoryTests: XCTestCase {
 
     func testHasAccessReturnsFalseWhenUndetermined() async {
         let mockStore = MockHealthStore(authorization: .notDetermined)
-        let repository = HealthRepository(store: mockStore)
+        let repository = HealthKitRepository(store: mockStore)
         let hasAccess = await repository.hasAccess
 
         XCTAssertFalse(hasAccess)
@@ -22,7 +22,7 @@ class HealthRepositoryTests: XCTestCase {
 
     func testHasAccessReturnsTrueWhenAllowed() async {
         let mockStore = MockHealthStore(authorization: .sharingAuthorized)
-        let repository = HealthRepository(store: mockStore)
+        let repository = HealthKitRepository(store: mockStore)
         let hasAccess = await repository.hasAccess
 
         XCTAssertTrue(hasAccess)

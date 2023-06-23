@@ -4,22 +4,8 @@
    version = "1.7">
    <BuildAction
       parallelizeBuildables = "YES"
-      buildImplicitDependencies = "YES">
+      buildImplicitDependencies = "NO">
       <BuildActionEntries>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "04B42E9E2A23DEE700E68358"
-               BuildableName = "Beaties Watch App.app"
-               BlueprintName = "Beaties Watch App"
-               ReferencedContainer = "container:Beaties.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
          <BuildActionEntry
             buildForTesting = "YES"
             buildForRunning = "YES"
@@ -31,6 +17,20 @@
                BlueprintIdentifier = "04C35F6E2A429D2D00FEEF0E"
                BuildableName = "Beaties iOS.app"
                BlueprintName = "Beaties iOS"
+               ReferencedContainer = "container:Beaties.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "04B42E9E2A23DEE700E68358"
+               BuildableName = "Beaties Watch App.app"
+               BlueprintName = "Beaties Watch App"
                ReferencedContainer = "container:Beaties.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -70,9 +70,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "04B42E9E2A23DEE700E68358"
-            BuildableName = "Beaties Watch App.app"
-            BlueprintName = "Beaties Watch App"
+            BlueprintIdentifier = "04C35F6E2A429D2D00FEEF0E"
+            BuildableName = "Beaties iOS.app"
+            BlueprintName = "Beaties iOS"
             ReferencedContainer = "container:Beaties.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -87,9 +87,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "04B42E9E2A23DEE700E68358"
-            BuildableName = "Beaties Watch App.app"
-            BlueprintName = "Beaties Watch App"
+            BlueprintIdentifier = "04C35F6E2A429D2D00FEEF0E"
+            BuildableName = "Beaties iOS.app"
+            BlueprintName = "Beaties iOS"
             ReferencedContainer = "container:Beaties.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>

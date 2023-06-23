@@ -8,21 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		041CBB692A30121100A21EEB /* ChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041CBB5B2A30020800A21EEB /* ChartView.swift */; };
-		041CBB6A2A30124C00A21EEB /* RepositoryKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0489D5602A26967A0079932E /* RepositoryKey.swift */; };
 		041CBB6C2A3012DB00A21EEB /* ChartEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041CBB6B2A3012DB00A21EEB /* ChartEntry.swift */; };
-		041CBB6F2A3013BB00A21EEB /* GlucoseSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041CBB6E2A3013BB00A21EEB /* GlucoseSample.swift */; };
-		041CBB702A30145500A21EEB /* HealthConnect.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0489D51C2A23DF790079932E /* HealthConnect.framework */; };
-		041CBB712A30145500A21EEB /* HealthConnect.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0489D51C2A23DF790079932E /* HealthConnect.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		041CBB752A30146100A21EEB /* DailyChart.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 041CBB622A3011F800A21EEB /* DailyChart.framework */; };
-		041CBB762A30146100A21EEB /* DailyChart.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 041CBB622A3011F800A21EEB /* DailyChart.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		0489D5242A23DF790079932E /* HealthConnect.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0489D51C2A23DF790079932E /* HealthConnect.framework */; };
-		0489D5342A23E0420079932E /* HealthConnect.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0489D51C2A23DF790079932E /* HealthConnect.framework */; };
-		0489D5352A23E0420079932E /* HealthConnect.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0489D51C2A23DF790079932E /* HealthConnect.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		0489D53A2A23E1A70079932E /* HealthRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0489D5392A23E1A70079932E /* HealthRepository.swift */; };
-		0489D53C2A23E4450079932E /* Values.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0489D53B2A23E4450079932E /* Values.swift */; };
-		0489D53E2A23E4860079932E /* AuthorizationStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0489D53D2A23E4860079932E /* AuthorizationStatus.swift */; };
-		0489D5402A23E53F0079932E /* HealthStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0489D53F2A23E53F0079932E /* HealthStore.swift */; };
-		0489D5422A23E5D20079932E /* HealthRepositoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0489D5412A23E5D20079932E /* HealthRepositoryTests.swift */; };
 		0489D5522A23ECAC0079932E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B42EA62A23DEE700E68358 /* ContentView.swift */; };
 		0489D5532A23ECBA0079932E /* TopLevel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0489D5492A23EAE10079932E /* TopLevel.framework */; };
 		0489D5542A23ECBA0079932E /* TopLevel.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0489D5492A23EAE10079932E /* TopLevel.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
@@ -32,12 +19,30 @@
 		0489D55F2A240B330079932E /* NumberButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0489D55E2A240B320079932E /* NumberButton.swift */; };
 		04ABFC092A3A8F36001AACF7 /* PrimaryContainerBackgroundViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04ABFC082A3A8F36001AACF7 /* PrimaryContainerBackgroundViewModifier.swift */; };
 		04ABFC0B2A3ACB5F001AACF7 /* AddEntryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04ABFC0A2A3ACB5F001AACF7 /* AddEntryButton.swift */; };
-		04B42EA02A23DEE700E68358 /* Beaties Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 04B42E9F2A23DEE700E68358 /* Beaties Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		04B42EA52A23DEE700E68358 /* BeatiesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B42EA42A23DEE700E68358 /* BeatiesApp.swift */; };
 		04B42EA92A23DEE800E68358 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04B42EA82A23DEE800E68358 /* Assets.xcassets */; };
 		04B42EAC2A23DEE800E68358 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04B42EAB2A23DEE800E68358 /* Preview Assets.xcassets */; };
-		04EFFEEB2A269BB4008F5358 /* HealthConnect.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0489D51C2A23DF790079932E /* HealthConnect.framework */; };
-		04EFFEEC2A269BB4008F5358 /* HealthConnect.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0489D51C2A23DF790079932E /* HealthConnect.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		04C35F722A429D2D00FEEF0E /* BeatiesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C35F712A429D2D00FEEF0E /* BeatiesApp.swift */; };
+		04C35F742A429D2D00FEEF0E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C35F732A429D2D00FEEF0E /* ContentView.swift */; };
+		04C35F762A429D2D00FEEF0E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04C35F752A429D2D00FEEF0E /* Assets.xcassets */; };
+		04C35F792A429D2D00FEEF0E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04C35F782A429D2D00FEEF0E /* Preview Assets.xcassets */; };
+		04C35F7E2A429D7500FEEF0E /* Beaties Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 04B42E9F2A23DEE700E68358 /* Beaties Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		04D53CA52A42A26300089723 /* DailyChart.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 041CBB622A3011F800A21EEB /* DailyChart.framework */; };
+		04D53CA62A42A26300089723 /* DailyChart.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 041CBB622A3011F800A21EEB /* DailyChart.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		04D53CB62A42A43F00089723 /* HealthConnect.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04D53CAE2A42A43F00089723 /* HealthConnect.framework */; };
+		04D53CC12A42A43F00089723 /* HealthConnect.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04D53CAE2A42A43F00089723 /* HealthConnect.framework */; };
+		04D53CC22A42A43F00089723 /* HealthConnect.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 04D53CAE2A42A43F00089723 /* HealthConnect.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		04D53CC92A42A57000089723 /* HealthConnect.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04D53CAE2A42A43F00089723 /* HealthConnect.framework */; };
+		04D53CCA2A42A57000089723 /* HealthConnect.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 04D53CAE2A42A43F00089723 /* HealthConnect.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		04D53CD42A42A5E800089723 /* GlucoseSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041CBB6E2A3013BB00A21EEB /* GlucoseSample.swift */; };
+		04D53CD52A42A5E800089723 /* Values.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0489D53B2A23E4450079932E /* Values.swift */; };
+		04D53CD62A42A5E800089723 /* HealthStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0489D53F2A23E53F0079932E /* HealthStore.swift */; };
+		04D53CD72A42A5E800089723 /* RepositoryKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0489D5602A26967A0079932E /* RepositoryKey.swift */; };
+		04D53CD82A42A5E800089723 /* HealthRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0489D5392A23E1A70079932E /* HealthRepository.swift */; };
+		04D53CD92A42A5E800089723 /* AuthorizationStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0489D53D2A23E4860079932E /* AuthorizationStatus.swift */; };
+		04D53CDA2A42A5EF00089723 /* HealthRepositoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0489D5412A23E5D20079932E /* HealthRepositoryTests.swift */; };
+		04D53CDC2A42A6D500089723 /* PrintView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D53CDB2A42A6D500089723 /* PrintView.swift */; };
+		04D53CDE2A42AB3800089723 /* PrintService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D53CDD2A42AB3800089723 /* PrintService.swift */; };
 		04EFFEF82A26CC6F008F5358 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04EFFEF72A26CC6F008F5358 /* WidgetKit.framework */; };
 		04EFFEFA2A26CC6F008F5358 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04EFFEF92A26CC6F008F5358 /* SwiftUI.framework */; };
 		04EFFEFD2A26CC6F008F5358 /* Complication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EFFEFC2A26CC6F008F5358 /* Complication.swift */; };
@@ -48,33 +53,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		041CBB722A30145500A21EEB /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 04B42E932A23DEE700E68358 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 0489D51B2A23DF790079932E;
-			remoteInfo = HealthConnect;
-		};
 		041CBB772A30146100A21EEB /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 04B42E932A23DEE700E68358 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 041CBB612A3011F700A21EEB;
 			remoteInfo = DailyChart;
-		};
-		0489D5252A23DF790079932E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 04B42E932A23DEE700E68358 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 0489D51B2A23DF790079932E;
-			remoteInfo = HealthConnect;
-		};
-		0489D5362A23E0420079932E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 04B42E932A23DEE700E68358 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 0489D51B2A23DF790079932E;
-			remoteInfo = HealthConnect;
 		};
 		0489D5552A23ECBA0079932E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -83,18 +67,46 @@
 			remoteGlobalIDString = 0489D5482A23EAE10079932E;
 			remoteInfo = TopLevel;
 		};
-		04B42EA12A23DEE700E68358 /* PBXContainerItemProxy */ = {
+		04C35F7F2A429D7500FEEF0E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 04B42E932A23DEE700E68358 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 04B42E9E2A23DEE700E68358;
 			remoteInfo = "Beaties Watch App";
 		};
-		04EFFEED2A269BB4008F5358 /* PBXContainerItemProxy */ = {
+		04D53CA72A42A26300089723 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 04B42E932A23DEE700E68358 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 0489D51B2A23DF790079932E;
+			remoteGlobalIDString = 041CBB612A3011F700A21EEB;
+			remoteInfo = DailyChart;
+		};
+		04D53CB72A42A43F00089723 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04B42E932A23DEE700E68358 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04D53CAD2A42A43F00089723;
+			remoteInfo = HealthConnect;
+		};
+		04D53CB92A42A43F00089723 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04B42E932A23DEE700E68358 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04C35F6E2A429D2D00FEEF0E;
+			remoteInfo = "Beaties iOS";
+		};
+		04D53CBF2A42A43F00089723 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04B42E932A23DEE700E68358 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04D53CAD2A42A43F00089723;
+			remoteInfo = HealthConnect;
+		};
+		04D53CCB2A42A57000089723 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04B42E932A23DEE700E68358 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04D53CAD2A42A43F00089723;
 			remoteInfo = HealthConnect;
 		};
 		04EFFF012A26CC70008F5358 /* PBXContainerItemProxy */ = {
@@ -107,48 +119,47 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		041CBB742A30145500A21EEB /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				041CBB712A30145500A21EEB /* HealthConnect.framework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		0489D5382A23E0420079932E /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				0489D5352A23E0420079932E /* HealthConnect.framework in Embed Frameworks */,
+				04D53CA62A42A26300089723 /* DailyChart.framework in Embed Frameworks */,
 				0489D5542A23ECBA0079932E /* TopLevel.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		04B42EB22A23DEE800E68358 /* Embed Watch Content */ = {
+		04C35F812A429D7500FEEF0E /* Embed Watch Content */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
 			dstSubfolderSpec = 16;
 			files = (
-				04B42EA02A23DEE700E68358 /* Beaties Watch App.app in Embed Watch Content */,
+				04C35F7E2A429D7500FEEF0E /* Beaties Watch App.app in Embed Watch Content */,
 			);
 			name = "Embed Watch Content";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		04EFFEEF2A269BB4008F5358 /* Embed Frameworks */ = {
+		04C35F862A429F1400FEEF0E /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				04EFFEEC2A269BB4008F5358 /* HealthConnect.framework in Embed Frameworks */,
-				041CBB762A30146100A21EEB /* DailyChart.framework in Embed Frameworks */,
+				04D53CC22A42A43F00089723 /* HealthConnect.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04D53CCD2A42A57000089723 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				04D53CCA2A42A57000089723 /* HealthConnect.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -171,8 +182,6 @@
 		041CBB622A3011F800A21EEB /* DailyChart.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DailyChart.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		041CBB6B2A3012DB00A21EEB /* ChartEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartEntry.swift; sourceTree = "<group>"; };
 		041CBB6E2A3013BB00A21EEB /* GlucoseSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlucoseSample.swift; sourceTree = "<group>"; };
-		0489D51C2A23DF790079932E /* HealthConnect.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HealthConnect.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		0489D5232A23DF790079932E /* HealthConnectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HealthConnectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0489D5392A23E1A70079932E /* HealthRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthRepository.swift; sourceTree = "<group>"; };
 		0489D53B2A23E4450079932E /* Values.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Values.swift; sourceTree = "<group>"; };
 		0489D53D2A23E4860079932E /* AuthorizationStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorizationStatus.swift; sourceTree = "<group>"; };
@@ -187,12 +196,21 @@
 		0489D5602A26967A0079932E /* RepositoryKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoryKey.swift; sourceTree = "<group>"; };
 		04ABFC082A3A8F36001AACF7 /* PrimaryContainerBackgroundViewModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryContainerBackgroundViewModifier.swift; sourceTree = "<group>"; };
 		04ABFC0A2A3ACB5F001AACF7 /* AddEntryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEntryButton.swift; sourceTree = "<group>"; };
-		04B42E992A23DEE700E68358 /* Beaties.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Beaties.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04B42E9F2A23DEE700E68358 /* Beaties Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Beaties Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		04B42EA42A23DEE700E68358 /* BeatiesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeatiesApp.swift; sourceTree = "<group>"; };
 		04B42EA62A23DEE700E68358 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		04B42EA82A23DEE800E68358 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04B42EAB2A23DEE800E68358 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		04C35F6F2A429D2D00FEEF0E /* Beaties iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Beaties iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		04C35F712A429D2D00FEEF0E /* BeatiesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeatiesApp.swift; sourceTree = "<group>"; };
+		04C35F732A429D2D00FEEF0E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		04C35F752A429D2D00FEEF0E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04C35F782A429D2D00FEEF0E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		04D53CAE2A42A43F00089723 /* HealthConnect.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HealthConnect.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		04D53CB52A42A43F00089723 /* HealthConnectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HealthConnectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04D53CDB2A42A6D500089723 /* PrintView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrintView.swift; sourceTree = "<group>"; };
+		04D53CDD2A42AB3800089723 /* PrintService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrintService.swift; sourceTree = "<group>"; };
+		04D53CDF2A42CCC500089723 /* Beaties iOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Beaties iOS.entitlements"; sourceTree = "<group>"; };
 		04EFFEF62A26CC6F008F5358 /* ComplicationExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = ComplicationExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		04EFFEF72A26CC6F008F5358 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
 		04EFFEF92A26CC6F008F5358 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
@@ -208,22 +226,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				041CBB702A30145500A21EEB /* HealthConnect.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		0489D5192A23DF790079932E /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		0489D5202A23DF790079932E /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0489D5242A23DF790079932E /* HealthConnect.framework in Frameworks */,
+				04D53CC92A42A57000089723 /* HealthConnect.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -231,7 +234,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04EFFEEB2A269BB4008F5358 /* HealthConnect.framework in Frameworks */,
 				041CBB752A30146100A21EEB /* DailyChart.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -240,8 +242,31 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0489D5342A23E0420079932E /* HealthConnect.framework in Frameworks */,
+				04D53CA52A42A26300089723 /* DailyChart.framework in Frameworks */,
 				0489D5532A23ECBA0079932E /* TopLevel.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04C35F6C2A429D2D00FEEF0E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04D53CC12A42A43F00089723 /* HealthConnect.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04D53CAB2A42A43F00089723 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04D53CB22A42A43F00089723 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04D53CB62A42A43F00089723 /* HealthConnect.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,15 +297,6 @@
 				041CBB5B2A30020800A21EEB /* ChartView.swift */,
 			);
 			path = Sources;
-			sourceTree = "<group>";
-		};
-		0489D51D2A23DF790079932E /* HealthConnect */ = {
-			isa = PBXGroup;
-			children = (
-				0489D5312A23DF840079932E /* Sources */,
-				0489D5322A23DF900079932E /* Tests */,
-			);
-			path = HealthConnect;
 			sourceTree = "<group>";
 		};
 		0489D5312A23DF840079932E /* Sources */ = {
@@ -340,11 +356,12 @@
 		04B42E922A23DEE700E68358 = {
 			isa = PBXGroup;
 			children = (
+				04C35F702A429D2D00FEEF0E /* Beaties iOS */,
 				04B42EA32A23DEE700E68358 /* Beaties Watch App */,
-				0489D51D2A23DF790079932E /* HealthConnect */,
 				0489D54A2A23EAE10079932E /* TopLevel */,
 				04EFFEFB2A26CC6F008F5358 /* Complication */,
 				041CBB632A3011F800A21EEB /* DailyChart */,
+				04D53CAF2A42A43F00089723 /* HealthConnect */,
 				04B42E9A2A23DEE700E68358 /* Products */,
 				0489D5332A23E0420079932E /* Frameworks */,
 			);
@@ -353,13 +370,13 @@
 		04B42E9A2A23DEE700E68358 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				04B42E992A23DEE700E68358 /* Beaties.app */,
 				04B42E9F2A23DEE700E68358 /* Beaties Watch App.app */,
-				0489D51C2A23DF790079932E /* HealthConnect.framework */,
-				0489D5232A23DF790079932E /* HealthConnectTests.xctest */,
 				0489D5492A23EAE10079932E /* TopLevel.framework */,
 				04EFFEF62A26CC6F008F5358 /* ComplicationExtension.appex */,
 				041CBB622A3011F800A21EEB /* DailyChart.framework */,
+				04C35F6F2A429D2D00FEEF0E /* Beaties iOS.app */,
+				04D53CAE2A42A43F00089723 /* HealthConnect.framework */,
+				04D53CB52A42A43F00089723 /* HealthConnectTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -383,6 +400,37 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		04C35F702A429D2D00FEEF0E /* Beaties iOS */ = {
+			isa = PBXGroup;
+			children = (
+				04D53CDF2A42CCC500089723 /* Beaties iOS.entitlements */,
+				04C35F712A429D2D00FEEF0E /* BeatiesApp.swift */,
+				04C35F732A429D2D00FEEF0E /* ContentView.swift */,
+				04C35F752A429D2D00FEEF0E /* Assets.xcassets */,
+				04C35F772A429D2D00FEEF0E /* Preview Content */,
+				04D53CDB2A42A6D500089723 /* PrintView.swift */,
+				04D53CDD2A42AB3800089723 /* PrintService.swift */,
+			);
+			path = "Beaties iOS";
+			sourceTree = "<group>";
+		};
+		04C35F772A429D2D00FEEF0E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				04C35F782A429D2D00FEEF0E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		04D53CAF2A42A43F00089723 /* HealthConnect */ = {
+			isa = PBXGroup;
+			children = (
+				0489D5312A23DF840079932E /* Sources */,
+				0489D5322A23DF900079932E /* Tests */,
+			);
+			path = HealthConnect;
+			sourceTree = "<group>";
+		};
 		04EFFEFB2A26CC6F008F5358 /* Complication */ = {
 			isa = PBXGroup;
 			children = (
@@ -403,14 +451,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		0489D5172A23DF790079932E /* Headers */ = {
+		0489D5442A23EAE10079932E /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		0489D5442A23EAE10079932E /* Headers */ = {
+		04D53CA92A42A43F00089723 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -428,53 +476,17 @@
 				041CBB5E2A3011F700A21EEB /* Sources */,
 				041CBB5F2A3011F700A21EEB /* Frameworks */,
 				041CBB602A3011F700A21EEB /* Resources */,
-				041CBB742A30145500A21EEB /* Embed Frameworks */,
+				04D53CCD2A42A57000089723 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				041CBB732A30145500A21EEB /* PBXTargetDependency */,
+				04D53CCC2A42A57000089723 /* PBXTargetDependency */,
 			);
 			name = DailyChart;
 			productName = DailyChart;
 			productReference = 041CBB622A3011F800A21EEB /* DailyChart.framework */;
 			productType = "com.apple.product-type.framework";
-		};
-		0489D51B2A23DF790079932E /* HealthConnect */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 0489D52B2A23DF790079932E /* Build configuration list for PBXNativeTarget "HealthConnect" */;
-			buildPhases = (
-				0489D5172A23DF790079932E /* Headers */,
-				0489D5182A23DF790079932E /* Sources */,
-				0489D5192A23DF790079932E /* Frameworks */,
-				0489D51A2A23DF790079932E /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = HealthConnect;
-			productName = HealthConnect;
-			productReference = 0489D51C2A23DF790079932E /* HealthConnect.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		0489D5222A23DF790079932E /* HealthConnectTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 0489D52E2A23DF790079932E /* Build configuration list for PBXNativeTarget "HealthConnectTests" */;
-			buildPhases = (
-				0489D51F2A23DF790079932E /* Sources */,
-				0489D5202A23DF790079932E /* Frameworks */,
-				0489D5212A23DF790079932E /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				0489D5262A23DF790079932E /* PBXTargetDependency */,
-			);
-			name = HealthConnectTests;
-			productName = HealthConnectTests;
-			productReference = 0489D5232A23DF790079932E /* HealthConnectTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		0489D5482A23EAE10079932E /* TopLevel */ = {
 			isa = PBXNativeTarget;
@@ -484,35 +496,16 @@
 				0489D5452A23EAE10079932E /* Sources */,
 				0489D5462A23EAE10079932E /* Frameworks */,
 				0489D5472A23EAE10079932E /* Resources */,
-				04EFFEEF2A269BB4008F5358 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				04EFFEEE2A269BB4008F5358 /* PBXTargetDependency */,
 				041CBB782A30146100A21EEB /* PBXTargetDependency */,
 			);
 			name = TopLevel;
 			productName = TopLevel;
 			productReference = 0489D5492A23EAE10079932E /* TopLevel.framework */;
 			productType = "com.apple.product-type.framework";
-		};
-		04B42E982A23DEE700E68358 /* Beaties */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 04B42EB32A23DEE800E68358 /* Build configuration list for PBXNativeTarget "Beaties" */;
-			buildPhases = (
-				04B42E972A23DEE700E68358 /* Resources */,
-				04B42EB22A23DEE800E68358 /* Embed Watch Content */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				04B42EA22A23DEE700E68358 /* PBXTargetDependency */,
-			);
-			name = Beaties;
-			productName = Beaties;
-			productReference = 04B42E992A23DEE700E68358 /* Beaties.app */;
-			productType = "com.apple.product-type.application.watchapp2-container";
 		};
 		04B42E9E2A23DEE700E68358 /* Beaties Watch App */ = {
 			isa = PBXNativeTarget;
@@ -527,14 +520,72 @@
 			buildRules = (
 			);
 			dependencies = (
-				0489D5372A23E0420079932E /* PBXTargetDependency */,
 				0489D5562A23ECBA0079932E /* PBXTargetDependency */,
 				04EFFF022A26CC70008F5358 /* PBXTargetDependency */,
+				04D53CA82A42A26300089723 /* PBXTargetDependency */,
 			);
 			name = "Beaties Watch App";
 			productName = "Beaties Watch App";
 			productReference = 04B42E9F2A23DEE700E68358 /* Beaties Watch App.app */;
 			productType = "com.apple.product-type.application";
+		};
+		04C35F6E2A429D2D00FEEF0E /* Beaties iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04C35F7C2A429D2D00FEEF0E /* Build configuration list for PBXNativeTarget "Beaties iOS" */;
+			buildPhases = (
+				04C35F6B2A429D2D00FEEF0E /* Sources */,
+				04C35F6C2A429D2D00FEEF0E /* Frameworks */,
+				04C35F6D2A429D2D00FEEF0E /* Resources */,
+				04C35F812A429D7500FEEF0E /* Embed Watch Content */,
+				04C35F862A429F1400FEEF0E /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04C35F802A429D7500FEEF0E /* PBXTargetDependency */,
+				04D53CC02A42A43F00089723 /* PBXTargetDependency */,
+			);
+			name = "Beaties iOS";
+			productName = "Beaties iOS";
+			productReference = 04C35F6F2A429D2D00FEEF0E /* Beaties iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		04D53CAD2A42A43F00089723 /* HealthConnect */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04D53CC32A42A43F00089723 /* Build configuration list for PBXNativeTarget "HealthConnect" */;
+			buildPhases = (
+				04D53CA92A42A43F00089723 /* Headers */,
+				04D53CAA2A42A43F00089723 /* Sources */,
+				04D53CAB2A42A43F00089723 /* Frameworks */,
+				04D53CAC2A42A43F00089723 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HealthConnect;
+			productName = HealthConnect;
+			productReference = 04D53CAE2A42A43F00089723 /* HealthConnect.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		04D53CB42A42A43F00089723 /* HealthConnectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04D53CC62A42A43F00089723 /* Build configuration list for PBXNativeTarget "HealthConnectTests" */;
+			buildPhases = (
+				04D53CB12A42A43F00089723 /* Sources */,
+				04D53CB22A42A43F00089723 /* Frameworks */,
+				04D53CB32A42A43F00089723 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04D53CB82A42A43F00089723 /* PBXTargetDependency */,
+				04D53CBA2A42A43F00089723 /* PBXTargetDependency */,
+			);
+			name = HealthConnectTests;
+			productName = HealthConnectTests;
+			productReference = 04D53CB52A42A43F00089723 /* HealthConnectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		04EFFEF52A26CC6F008F5358 /* ComplicationExtension */ = {
 			isa = PBXNativeTarget;
@@ -560,30 +611,28 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1430;
+				LastSwiftUpdateCheck = 1500;
 				LastUpgradeCheck = 1430;
 				ORGANIZATIONNAME = "Cocoatype, LLC";
 				TargetAttributes = {
 					041CBB612A3011F700A21EEB = {
 						CreatedOnToolsVersion = 15.0;
 					};
-					0489D51B2A23DF790079932E = {
-						CreatedOnToolsVersion = 14.3;
-						LastSwiftMigration = 1430;
-					};
-					0489D5222A23DF790079932E = {
-						CreatedOnToolsVersion = 14.3;
-						LastSwiftMigration = 1430;
-					};
 					0489D5482A23EAE10079932E = {
 						CreatedOnToolsVersion = 14.3;
 						LastSwiftMigration = 1430;
 					};
-					04B42E982A23DEE700E68358 = {
-						CreatedOnToolsVersion = 14.3;
-					};
 					04B42E9E2A23DEE700E68358 = {
 						CreatedOnToolsVersion = 14.3;
+					};
+					04C35F6E2A429D2D00FEEF0E = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					04D53CAD2A42A43F00089723 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					04D53CB42A42A43F00089723 = {
+						CreatedOnToolsVersion = 15.0;
 					};
 					04EFFEF52A26CC6F008F5358 = {
 						CreatedOnToolsVersion = 14.3;
@@ -603,10 +652,10 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				04B42E982A23DEE700E68358 /* Beaties */,
+				04C35F6E2A429D2D00FEEF0E /* Beaties iOS */,
 				04B42E9E2A23DEE700E68358 /* Beaties Watch App */,
-				0489D51B2A23DF790079932E /* HealthConnect */,
-				0489D5222A23DF790079932E /* HealthConnectTests */,
+				04D53CAD2A42A43F00089723 /* HealthConnect */,
+				04D53CB42A42A43F00089723 /* HealthConnectTests */,
 				0489D5482A23EAE10079932E /* TopLevel */,
 				041CBB612A3011F700A21EEB /* DailyChart */,
 				04EFFEF52A26CC6F008F5358 /* ComplicationExtension */,
@@ -622,28 +671,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		0489D51A2A23DF790079932E /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		0489D5212A23DF790079932E /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		0489D5472A23EAE10079932E /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		04B42E972A23DEE700E68358 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -656,6 +684,29 @@
 			files = (
 				04B42EAC2A23DEE800E68358 /* Preview Assets.xcassets in Resources */,
 				04B42EA92A23DEE800E68358 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04C35F6D2A429D2D00FEEF0E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04C35F792A429D2D00FEEF0E /* Preview Assets.xcassets in Resources */,
+				04C35F762A429D2D00FEEF0E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04D53CAC2A42A43F00089723 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04D53CB32A42A43F00089723 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -676,27 +727,6 @@
 			files = (
 				041CBB692A30121100A21EEB /* ChartView.swift in Sources */,
 				041CBB6C2A3012DB00A21EEB /* ChartEntry.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		0489D5182A23DF790079932E /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				041CBB6F2A3013BB00A21EEB /* GlucoseSample.swift in Sources */,
-				041CBB6A2A30124C00A21EEB /* RepositoryKey.swift in Sources */,
-				0489D53E2A23E4860079932E /* AuthorizationStatus.swift in Sources */,
-				0489D53A2A23E1A70079932E /* HealthRepository.swift in Sources */,
-				0489D53C2A23E4450079932E /* Values.swift in Sources */,
-				0489D5402A23E53F0079932E /* HealthStore.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		0489D51F2A23DF790079932E /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0489D5422A23E5D20079932E /* HealthRepositoryTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -724,6 +754,38 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		04C35F6B2A429D2D00FEEF0E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04C35F742A429D2D00FEEF0E /* ContentView.swift in Sources */,
+				04D53CDC2A42A6D500089723 /* PrintView.swift in Sources */,
+				04C35F722A429D2D00FEEF0E /* BeatiesApp.swift in Sources */,
+				04D53CDE2A42AB3800089723 /* PrintService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04D53CAA2A42A43F00089723 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04D53CD42A42A5E800089723 /* GlucoseSample.swift in Sources */,
+				04D53CD62A42A5E800089723 /* HealthStore.swift in Sources */,
+				04D53CD82A42A5E800089723 /* HealthRepository.swift in Sources */,
+				04D53CD92A42A5E800089723 /* AuthorizationStatus.swift in Sources */,
+				04D53CD52A42A5E800089723 /* Values.swift in Sources */,
+				04D53CD72A42A5E800089723 /* RepositoryKey.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04D53CB12A42A43F00089723 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04D53CDA2A42A5EF00089723 /* HealthRepositoryTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		04EFFEF22A26CC6F008F5358 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -735,40 +797,45 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		041CBB732A30145500A21EEB /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 0489D51B2A23DF790079932E /* HealthConnect */;
-			targetProxy = 041CBB722A30145500A21EEB /* PBXContainerItemProxy */;
-		};
 		041CBB782A30146100A21EEB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 041CBB612A3011F700A21EEB /* DailyChart */;
 			targetProxy = 041CBB772A30146100A21EEB /* PBXContainerItemProxy */;
-		};
-		0489D5262A23DF790079932E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 0489D51B2A23DF790079932E /* HealthConnect */;
-			targetProxy = 0489D5252A23DF790079932E /* PBXContainerItemProxy */;
-		};
-		0489D5372A23E0420079932E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 0489D51B2A23DF790079932E /* HealthConnect */;
-			targetProxy = 0489D5362A23E0420079932E /* PBXContainerItemProxy */;
 		};
 		0489D5562A23ECBA0079932E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 0489D5482A23EAE10079932E /* TopLevel */;
 			targetProxy = 0489D5552A23ECBA0079932E /* PBXContainerItemProxy */;
 		};
-		04B42EA22A23DEE700E68358 /* PBXTargetDependency */ = {
+		04C35F802A429D7500FEEF0E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 04B42E9E2A23DEE700E68358 /* Beaties Watch App */;
-			targetProxy = 04B42EA12A23DEE700E68358 /* PBXContainerItemProxy */;
+			targetProxy = 04C35F7F2A429D7500FEEF0E /* PBXContainerItemProxy */;
 		};
-		04EFFEEE2A269BB4008F5358 /* PBXTargetDependency */ = {
+		04D53CA82A42A26300089723 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 0489D51B2A23DF790079932E /* HealthConnect */;
-			targetProxy = 04EFFEED2A269BB4008F5358 /* PBXContainerItemProxy */;
+			target = 041CBB612A3011F700A21EEB /* DailyChart */;
+			targetProxy = 04D53CA72A42A26300089723 /* PBXContainerItemProxy */;
+		};
+		04D53CB82A42A43F00089723 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04D53CAD2A42A43F00089723 /* HealthConnect */;
+			targetProxy = 04D53CB72A42A43F00089723 /* PBXContainerItemProxy */;
+		};
+		04D53CBA2A42A43F00089723 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04C35F6E2A429D2D00FEEF0E /* Beaties iOS */;
+			targetProxy = 04D53CB92A42A43F00089723 /* PBXContainerItemProxy */;
+		};
+		04D53CC02A42A43F00089723 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04D53CAD2A42A43F00089723 /* HealthConnect */;
+			targetProxy = 04D53CBF2A42A43F00089723 /* PBXContainerItemProxy */;
+		};
+		04D53CCC2A42A57000089723 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04D53CAD2A42A43F00089723 /* HealthConnect */;
+			targetProxy = 04D53CCB2A42A57000089723 /* PBXContainerItemProxy */;
 		};
 		04EFFF022A26CC70008F5358 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -856,118 +923,6 @@
 			};
 			name = Release;
 		};
-		0489D52C2A23DF790079932E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = 287EDDET2B;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_MODULE_VERIFIER = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
-				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++20";
-				PRODUCT_BUNDLE_IDENTIFIER = com.cocoatype.HealthConnect;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 4;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		0489D52D2A23DF790079932E /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = 287EDDET2B;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_MODULE_VERIFIER = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
-				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++20";
-				PRODUCT_BUNDLE_IDENTIFIER = com.cocoatype.HealthConnect;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 4;
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		0489D52F2A23DF790079932E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 287EDDET2B;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.cocoatype.HealthConnectTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = watchos;
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 4;
-			};
-			name = Debug;
-		};
-		0489D5302A23DF790079932E /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 287EDDET2B;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.cocoatype.HealthConnectTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = watchos;
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 4;
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
 		0489D54E2A23EAE10079932E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1043,6 +998,7 @@
 		04B42EAD2A23DEE800E68358 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -1092,6 +1048,8 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				INFOPLIST_KEY_NSHealthShareUsageDescription = "Beaties needs to read your blood glucose data.";
 				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "Beaties needs to be able to update your blood glucose data.";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -1104,6 +1062,7 @@
 		04B42EAE2A23DEE800E68358 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -1147,6 +1106,8 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				INFOPLIST_KEY_NSHealthShareUsageDescription = "Beaties needs to read your blood glucose data.";
 				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "Beaties needs to be able to update your blood glucose data.";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
@@ -1170,7 +1131,8 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = Beaties;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
-				INFOPLIST_KEY_WKWatchOnly = YES;
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.cocoatype.Beaties;
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1201,7 +1163,8 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = Beaties;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
-				INFOPLIST_KEY_WKWatchOnly = YES;
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.cocoatype.Beaties;
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1218,36 +1181,225 @@
 			};
 			name = Release;
 		};
-		04B42EB42A23DEE800E68358 /* Debug */ = {
+		04C35F7A2A429D2D00FEEF0E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Beaties iOS/Beaties iOS.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Beaties iOS/Preview Content\"";
 				DEVELOPMENT_TEAM = 287EDDET2B;
-				INFOPLIST_KEY_CFBundleDisplayName = Beaties;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "Beaties needs to read your blood glucose data.";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "Beaties needs to be able to update your blood glucose data.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.cocoatype.Beaties;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
-		04B42EB52A23DEE800E68358 /* Release */ = {
+		04C35F7B2A429D2D00FEEF0E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Beaties iOS/Beaties iOS.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Beaties iOS/Preview Content\"";
 				DEVELOPMENT_TEAM = 287EDDET2B;
-				INFOPLIST_KEY_CFBundleDisplayName = Beaties;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "Beaties needs to read your blood glucose data.";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "Beaties needs to be able to update your blood glucose data.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.cocoatype.Beaties;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
 				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04D53CC42A42A43F00089723 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 287EDDET2B;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2023 Cocoatype, LLC. All rights reserved.";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = (
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cocoatype.HealthConnect;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = auto;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx watchsimulator watchos";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,4";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		04D53CC52A42A43F00089723 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 287EDDET2B;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2023 Cocoatype, LLC. All rights reserved.";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = (
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cocoatype.HealthConnect;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = auto;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx watchsimulator watchos";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,4";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		04D53CC72A42A43F00089723 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 287EDDET2B;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cocoatype.HealthConnectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		04D53CC82A42A43F00089723 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 287EDDET2B;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cocoatype.HealthConnectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -1322,24 +1474,6 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0489D52B2A23DF790079932E /* Build configuration list for PBXNativeTarget "HealthConnect" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				0489D52C2A23DF790079932E /* Debug */,
-				0489D52D2A23DF790079932E /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		0489D52E2A23DF790079932E /* Build configuration list for PBXNativeTarget "HealthConnectTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				0489D52F2A23DF790079932E /* Debug */,
-				0489D5302A23DF790079932E /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		0489D54D2A23EAE10079932E /* Build configuration list for PBXNativeTarget "TopLevel" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1367,11 +1501,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		04B42EB32A23DEE800E68358 /* Build configuration list for PBXNativeTarget "Beaties" */ = {
+		04C35F7C2A429D2D00FEEF0E /* Build configuration list for PBXNativeTarget "Beaties iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				04B42EB42A23DEE800E68358 /* Debug */,
-				04B42EB52A23DEE800E68358 /* Release */,
+				04C35F7A2A429D2D00FEEF0E /* Debug */,
+				04C35F7B2A429D2D00FEEF0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04D53CC32A42A43F00089723 /* Build configuration list for PBXNativeTarget "HealthConnect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04D53CC42A42A43F00089723 /* Debug */,
+				04D53CC52A42A43F00089723 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04D53CC62A42A43F00089723 /* Build configuration list for PBXNativeTarget "HealthConnectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04D53CC72A42A43F00089723 /* Debug */,
+				04D53CC82A42A43F00089723 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
