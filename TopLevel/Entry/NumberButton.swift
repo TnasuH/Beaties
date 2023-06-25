@@ -38,7 +38,7 @@ struct NumberButton: View {
         case .number, .delete:
             return .white.opacity(0.3)
         case .done:
-            return .accentColor
+            return Color("Primary")
         }
     }
 }
