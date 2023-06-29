@@ -33,7 +33,7 @@ struct EntryView: View {
         case .number(let string):
             if entry == "0" {
                 entry = string
-            } else {
+            } else if entry.count < 3 {
                 entry.append(string)
             }
         case .delete:
