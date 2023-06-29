@@ -10,35 +10,55 @@ struct NumberButton: View {
     }
 
     var body: some View {
-        Button(action: {
-            self.action(self.value)
-        }, label: {
-            self.label
-                .frame(maxWidth: .infinity)
-                .frame(height: 28)
-                .background(RoundedRectangle(cornerRadius: 4).foregroundColor(backgroundColor))
-        })
-        .buttonStyle(.plain)
-    }
-
-    @ViewBuilder
-    private var label: some View {
-        switch value {
-        case .number(let string):
-            Text(string)
-        case .delete:
-            Image(systemName: "delete.backward")
-        case .done:
-            Image(systemName: "return")
+        Button {
+            action(self.value)
+        } label: {
+            switch value {
+            case .number(let string):
+                Text(string)
+            case .delete:
+                Image(systemName: "delete.backward")
+            case .done:
+                Image(systemName: "return")
+            }
         }
+        .buttonStyle(NumberButtonStyle(value: value))
+    }
+}
+
+struct NumberButtonStyle: ButtonStyle {
+    private let value: NumberValue
+    init(value: NumberValue) {
+        self.value = value
     }
 
-    private var backgroundColor: Color {
+    func makeBody(configuration: Configuration) -> some View {
+        configuration.label
+            .frame(maxWidth: .infinity, maxHeight: .infinity)
+            .font(.system(size: 22, weight: .semibold, design: .rounded))
+            .background(backgroundStyle, in: RoundedRectangle(cornerRadius: 8, style: .continuous))
+    }
+
+    private var backgroundStyle: AnyShapeStyle {
         switch value {
         case .number, .delete:
-            return .white.opacity(0.3)
+            if #available(watchOS 10, *) {
+                return AnyShapeStyle(.fill.tertiary)
+            } else {
+                return AnyShapeStyle(Color.white.opacity(0.3))
+            }
         case .done:
-            return Color("Primary")
+            return AnyShapeStyle(Color("Primary"))
+        }
+    }
+}
+
+enum NumberButtonPreview: PreviewProvider {
+    static var previews: some View {
+        HStack {
+            NumberButton("4", action: { _ in }).frame(width: 51, height: 39)
+            NumberButton(.delete, action: { _ in }).frame(width: 51, height: 39)
+            NumberButton(.done, action: { _ in }).frame(width: 51, height: 39)
         }
     }
 }

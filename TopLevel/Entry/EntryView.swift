@@ -5,38 +5,27 @@ struct EntryView: View {
     @Environment(\.dismiss) private var dismiss
     private let entryAction: (String) async -> Void
 
+    private let values = [
+        "1", "2", "3",
+        "4", "5", "6",
+        "7", "8", "9",
+        NumberValue.delete, "0", .done
+    ]
+
     init(entryAction: @escaping (String) async -> Void) {
         self.entryAction = entryAction
     }
 
     var body: some View {
-        VStack(alignment: .trailing, spacing: 3) {
-            Text(entry).font(.title3)
-            VStack {
-                HStack {
-                    NumberButton("1", action: handleButton(_:))
-                    NumberButton("2", action: handleButton(_:))
-                    NumberButton("3", action: handleButton(_:))
-                }
-                HStack {
-                    NumberButton("4", action: handleButton(_:))
-                    NumberButton("5", action: handleButton(_:))
-                    NumberButton("6", action: handleButton(_:))
-                }
-                HStack {
-                    NumberButton("7", action: handleButton(_:))
-                    NumberButton("8", action: handleButton(_:))
-                    NumberButton("9", action: handleButton(_:))
-                }
-                HStack {
-                    NumberButton(.delete, action: handleButton(_:))
-                    NumberButton("0", action: handleButton(_:))
-                    NumberButton(.done, action: handleButton(_:))
-                }
+        EntryLayout {
+            Text(entry)
+                .font(.system(size: 23, weight: .semibold, design: .rounded)).padding(.vertical, 4)
+            ForEach(values) { value in
+                NumberButton(value, action: handleButton(_:))
             }
         }
-        .padding(.bottom, -16)
-        .scenePadding()
+        .ignoresSafeArea()
+        .toolbar(.hidden)
     }
 
     private func handleButton(_ value: NumberValue) {
@@ -63,6 +52,12 @@ struct EntryView: View {
 
 enum EntryViewPreviews: PreviewProvider {
     static var previews: some View {
-        Rectangle().sheet(isPresented: .constant(true), content: { EntryView(entryAction: {_ in }) })
+        Rectangle().sheet(isPresented: .constant(true), content: { EntryView(entryAction: {_ in }) }).previewLayout(.sizeThatFits)
+    }
+}
+
+extension CGRect {
+    var center: CGPoint {
+        CGPoint(x: midX, y: midY)
     }
 }
