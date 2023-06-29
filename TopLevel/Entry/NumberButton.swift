@@ -1,8 +1,11 @@
 import SwiftUI
+import WatchKit
 
 struct NumberButton: View {
     private let value: NumberValue
     private let action: (NumberValue) -> Void
+
+    @GestureState private var gestureState = false
 
     init(_ value: NumberValue, action: @escaping (NumberValue) -> Void) {
         self.value = value
@@ -23,33 +26,12 @@ struct NumberButton: View {
             }
         }
         .buttonStyle(NumberButtonStyle(value: value))
-    }
-}
-
-struct NumberButtonStyle: ButtonStyle {
-    private let value: NumberValue
-    init(value: NumberValue) {
-        self.value = value
-    }
-
-    func makeBody(configuration: Configuration) -> some View {
-        configuration.label
-            .frame(maxWidth: .infinity, maxHeight: .infinity)
-            .font(.system(size: 22, weight: .semibold, design: .rounded))
-            .background(backgroundStyle, in: RoundedRectangle(cornerRadius: 8, style: .continuous))
-    }
-
-    private var backgroundStyle: AnyShapeStyle {
-        switch value {
-        case .number, .delete:
-            if #available(watchOS 10, *) {
-                return AnyShapeStyle(.fill.tertiary)
-            } else {
-                return AnyShapeStyle(Color.white.opacity(0.3))
+        .simultaneousGesture(LongPressGesture(minimumDuration: .infinity, maximumDistance: .infinity).updating($gestureState) { value, state, _ in
+            state = value
+            if value {
+                WKInterfaceDevice.current().play(.click)
             }
-        case .done:
-            return AnyShapeStyle(Color("Primary"))
-        }
+        })
     }
 }
 
