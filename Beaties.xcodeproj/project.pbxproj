@@ -46,6 +46,11 @@
 		04584F802A67CF4600313AA3 /* HealthConnect.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04D53CAE2A42A43F00089723 /* HealthConnect.framework */; };
 		04584F812A67CF4600313AA3 /* HealthConnect.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 04D53CAE2A42A43F00089723 /* HealthConnect.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		04584F8B2A67D7C300313AA3 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 04584F892A67D68F00313AA3 /* Localizable.xcstrings */; };
+		04584F902A67D97C00313AA3 /* PrintChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04584F8F2A67D97C00313AA3 /* PrintChart.swift */; };
+		04584F922A67D9BB00313AA3 /* PrintTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04584F912A67D9BB00313AA3 /* PrintTable.swift */; };
+		04584F942A67D9D600313AA3 /* PrintEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04584F932A67D9D600313AA3 /* PrintEntry.swift */; };
+		04584F962A67D9F300313AA3 /* PrintHeaderRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04584F952A67D9F300313AA3 /* PrintHeaderRow.swift */; };
+		04584F982A67DA0200313AA3 /* PrintDataRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04584F972A67DA0200313AA3 /* PrintDataRow.swift */; };
 		04790A492A4D7EA700EB672D /* NumberButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04790A482A4D7EA700EB672D /* NumberButtonStyle.swift */; };
 		0489D5522A23ECAC0079932E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B42EA62A23DEE700E68358 /* ContentView.swift */; };
 		0489D5532A23ECBA0079932E /* TopLevel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0489D5492A23EAE10079932E /* TopLevel.framework */; };
@@ -339,6 +344,11 @@
 		04584F6F2A67CDA600313AA3 /* PhoneEntry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PhoneEntry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		04584F7A2A67CDC500313AA3 /* EntryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryView.swift; sourceTree = "<group>"; };
 		04584F892A67D68F00313AA3 /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; name = Localizable.xcstrings; path = ../PhoneEntry/Resources/Localizable.xcstrings; sourceTree = "<group>"; };
+		04584F8F2A67D97C00313AA3 /* PrintChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrintChart.swift; sourceTree = "<group>"; };
+		04584F912A67D9BB00313AA3 /* PrintTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrintTable.swift; sourceTree = "<group>"; };
+		04584F932A67D9D600313AA3 /* PrintEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrintEntry.swift; sourceTree = "<group>"; };
+		04584F952A67D9F300313AA3 /* PrintHeaderRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrintHeaderRow.swift; sourceTree = "<group>"; };
+		04584F972A67DA0200313AA3 /* PrintDataRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrintDataRow.swift; sourceTree = "<group>"; };
 		04790A482A4D7EA700EB672D /* NumberButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberButtonStyle.swift; sourceTree = "<group>"; };
 		0489D5392A23E1A70079932E /* HealthRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthRepository.swift; sourceTree = "<group>"; };
 		0489D53B2A23E4450079932E /* Values.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Values.swift; sourceTree = "<group>"; };
@@ -544,8 +554,7 @@
 		04584F5A2A67CC3500313AA3 /* Printing */ = {
 			isa = PBXGroup;
 			children = (
-				04D53CDB2A42A6D500089723 /* PrintView.swift */,
-				04D53CDD2A42AB3800089723 /* PrintService.swift */,
+				04584F8E2A67D96100313AA3 /* Sources */,
 			);
 			path = Printing;
 			sourceTree = "<group>";
@@ -577,6 +586,28 @@
 			isa = PBXGroup;
 			children = (
 				04584F7A2A67CDC500313AA3 /* EntryView.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		04584F8D2A67D95700313AA3 /* View Components */ = {
+			isa = PBXGroup;
+			children = (
+				04584F8F2A67D97C00313AA3 /* PrintChart.swift */,
+				04584F912A67D9BB00313AA3 /* PrintTable.swift */,
+				04584F932A67D9D600313AA3 /* PrintEntry.swift */,
+				04584F952A67D9F300313AA3 /* PrintHeaderRow.swift */,
+				04584F972A67DA0200313AA3 /* PrintDataRow.swift */,
+			);
+			path = "View Components";
+			sourceTree = "<group>";
+		};
+		04584F8E2A67D96100313AA3 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				04584F8D2A67D95700313AA3 /* View Components */,
+				04D53CDB2A42A6D500089723 /* PrintView.swift */,
+				04D53CDD2A42AB3800089723 /* PrintService.swift */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -1246,8 +1277,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04584F922A67D9BB00313AA3 /* PrintTable.swift in Sources */,
 				04584F652A67CC4E00313AA3 /* PrintView.swift in Sources */,
+				04584F982A67DA0200313AA3 /* PrintDataRow.swift in Sources */,
+				04584F902A67D97C00313AA3 /* PrintChart.swift in Sources */,
 				04584F642A67CC4E00313AA3 /* PrintService.swift in Sources */,
+				04584F942A67D9D600313AA3 /* PrintEntry.swift in Sources */,
+				04584F962A67D9F300313AA3 /* PrintHeaderRow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
