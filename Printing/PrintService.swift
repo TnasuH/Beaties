@@ -2,8 +2,8 @@ import HealthConnect
 import SwiftUI
 import UIKit
 
-enum PrintService {
-    @MainActor static func print(repository: HealthRepository) async throws {
+public enum PrintService {
+    @MainActor public static func print(repository: HealthRepository) async throws {
         let printController = UIPrintInteractionController.shared
 
         guard let mutableData = CFDataCreateMutable(nil, 0),
@@ -43,7 +43,7 @@ enum PrintService {
         printController.present(animated: true)
     }
 
-    static func entries(from samples: [GlucoseSample]) -> [PrintEntry] {
+    private static func entries(from samples: [GlucoseSample]) -> [PrintEntry] {
         samples.map(PrintEntry.init(_:))
     }
 }

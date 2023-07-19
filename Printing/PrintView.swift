@@ -95,12 +95,9 @@ struct PrintChart: View {
         }.aspectRatio(16/9, contentMode: .fit)
             .chartXAxis {
                 AxisMarks(values: .stride(by: .day, count: 7)) { value in
-                    if let date = value.as(Date.self) {
-                        AxisValueLabel(format: .dateTime.day().month())
-
-                        AxisGridLine()
-                        AxisTick()
-                    }
+                    AxisValueLabel(format: .dateTime.day().month())
+                    AxisGridLine()
+                    AxisTick()
                 }
             }
     }
@@ -181,6 +178,9 @@ struct PrintDataRow: View, Identifiable {
     }
 
     var id: UUID { entry.id }
+    var formattedDate: String { entry.formattedDate }
+    var formattedTime: String { entry.formattedTime }
+    var formattedValue: String { entry.formattedValue }
 
     var body: some View {
         GridRow {

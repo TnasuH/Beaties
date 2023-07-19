@@ -54,6 +54,17 @@
                ReferencedContainer = "container:Beaties.xcodeproj">
             </BuildableReference>
          </TestableReference>
+         <TestableReference
+            skipped = "NO"
+            parallelizable = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "04584F012A67BD2B00313AA3"
+               BuildableName = "PhoneMainTests.xctest"
+               BlueprintName = "PhoneMainTests"
+               ReferencedContainer = "container:Beaties.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
    </TestAction>
    <LaunchAction
