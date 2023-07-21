@@ -14,8 +14,6 @@
 		042DA6EF2A4D7B4A002310C8 /* EntryLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042DA6EE2A4D7B4A002310C8 /* EntryLayout.swift */; };
 		04584F032A67BD2B00313AA3 /* PhoneMain.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04584EFB2A67BD2B00313AA3 /* PhoneMain.framework */; };
 		04584F0A2A67BD2C00313AA3 /* PhoneMainTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04584F092A67BD2C00313AA3 /* PhoneMainTests.swift */; };
-		04584F0E2A67BD2C00313AA3 /* PhoneMain.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04584EFB2A67BD2B00313AA3 /* PhoneMain.framework */; };
-		04584F0F2A67BD2C00313AA3 /* PhoneMain.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 04584EFB2A67BD2B00313AA3 /* PhoneMain.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		04584F192A67BD6800313AA3 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04584F182A67BD6800313AA3 /* MainView.swift */; };
 		04584F352A67BDC700313AA3 /* Assets.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04584F2F2A67BDC700313AA3 /* Assets.framework */; };
 		04584F362A67BDC700313AA3 /* Assets.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 04584F2F2A67BDC700313AA3 /* Assets.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
@@ -32,14 +30,10 @@
 		04584F4F2A67C9A500313AA3 /* MoreButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04584F4E2A67C9A500313AA3 /* MoreButton.swift */; };
 		04584F512A67CA0C00313AA3 /* MainToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04584F502A67CA0C00313AA3 /* MainToolbar.swift */; };
 		04584F532A67CB1A00313AA3 /* PrintButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04584F522A67CB1A00313AA3 /* PrintButton.swift */; };
-		04584F5F2A67CC3500313AA3 /* Printing.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04584F592A67CC3500313AA3 /* Printing.framework */; };
-		04584F602A67CC3500313AA3 /* Printing.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 04584F592A67CC3500313AA3 /* Printing.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		04584F642A67CC4E00313AA3 /* PrintService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D53CDD2A42AB3800089723 /* PrintService.swift */; };
 		04584F652A67CC4E00313AA3 /* PrintView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D53CDB2A42A6D500089723 /* PrintView.swift */; };
 		04584F662A67CC8B00313AA3 /* Printing.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04584F592A67CC3500313AA3 /* Printing.framework */; };
 		04584F672A67CC8B00313AA3 /* Printing.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 04584F592A67CC3500313AA3 /* Printing.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		04584F752A67CDA700313AA3 /* PhoneEntry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04584F6F2A67CDA600313AA3 /* PhoneEntry.framework */; };
-		04584F762A67CDA700313AA3 /* PhoneEntry.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 04584F6F2A67CDA600313AA3 /* PhoneEntry.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		04584F7B2A67CDC500313AA3 /* EntryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04584F7A2A67CDC500313AA3 /* EntryView.swift */; };
 		04584F7C2A67CDE600313AA3 /* PhoneEntry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04584F6F2A67CDA600313AA3 /* PhoneEntry.framework */; };
 		04584F7D2A67CDE600313AA3 /* PhoneEntry.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 04584F6F2A67CDA600313AA3 /* PhoneEntry.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
@@ -56,6 +50,19 @@
 		0464179D2A6A569B00777D69 /* EntryToolbarContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0464179C2A6A569B00777D69 /* EntryToolbarContent.swift */; };
 		046417A02A6A581D00777D69 /* EntryCancelToolbarButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0464179F2A6A581D00777D69 /* EntryCancelToolbarButton.swift */; };
 		046417A22A6A584700777D69 /* EntryDoneToolbarButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046417A12A6A584700777D69 /* EntryDoneToolbarButton.swift */; };
+		046417AE2A6A616B00777D69 /* PhoneRoot.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 046417A82A6A616B00777D69 /* PhoneRoot.framework */; };
+		046417AF2A6A616B00777D69 /* PhoneRoot.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 046417A82A6A616B00777D69 /* PhoneRoot.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		046417B62A6A619900777D69 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046417B42A6A619000777D69 /* RootView.swift */; };
+		046417C82A6A62CC00777D69 /* HealthConnect.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04D53CAE2A42A43F00089723 /* HealthConnect.framework */; };
+		046417C92A6A62CC00777D69 /* HealthConnect.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 04D53CAE2A42A43F00089723 /* HealthConnect.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		046417CF2A6A639300777D69 /* PhoneOnboarding.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 046417BC2A6A61AF00777D69 /* PhoneOnboarding.framework */; };
+		046417D02A6A639300777D69 /* PhoneOnboarding.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 046417BC2A6A61AF00777D69 /* PhoneOnboarding.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		046417D32A6A63B200777D69 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046417CD2A6A631600777D69 /* OnboardingView.swift */; };
+		046417D42A6A63E300777D69 /* PhoneMain.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04584EFB2A67BD2B00313AA3 /* PhoneMain.framework */; };
+		046417D52A6A63E300777D69 /* PhoneMain.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 04584EFB2A67BD2B00313AA3 /* PhoneMain.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		046417DA2A6A642400777D69 /* DeniedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046417D82A6A63FA00777D69 /* DeniedView.swift */; };
+		046417DB2A6A666D00777D69 /* HealthConnect.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04D53CAE2A42A43F00089723 /* HealthConnect.framework */; };
+		046417DC2A6A666D00777D69 /* HealthConnect.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 04D53CAE2A42A43F00089723 /* HealthConnect.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		04790A492A4D7EA700EB672D /* NumberButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04790A482A4D7EA700EB672D /* NumberButtonStyle.swift */; };
 		0489D5522A23ECAC0079932E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B42EA62A23DEE700E68358 /* ContentView.swift */; };
 		0489D5532A23ECBA0079932E /* TopLevel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0489D5492A23EAE10079932E /* TopLevel.framework */; };
@@ -74,8 +81,6 @@
 		04D53CA52A42A26300089723 /* DailyChart.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 041CBB622A3011F800A21EEB /* DailyChart.framework */; };
 		04D53CA62A42A26300089723 /* DailyChart.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 041CBB622A3011F800A21EEB /* DailyChart.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		04D53CB62A42A43F00089723 /* HealthConnect.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04D53CAE2A42A43F00089723 /* HealthConnect.framework */; };
-		04D53CC12A42A43F00089723 /* HealthConnect.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04D53CAE2A42A43F00089723 /* HealthConnect.framework */; };
-		04D53CC22A42A43F00089723 /* HealthConnect.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 04D53CAE2A42A43F00089723 /* HealthConnect.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		04D53CC92A42A57000089723 /* HealthConnect.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04D53CAE2A42A43F00089723 /* HealthConnect.framework */; };
 		04D53CCA2A42A57000089723 /* HealthConnect.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 04D53CAE2A42A43F00089723 /* HealthConnect.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		04D53CD42A42A5E800089723 /* GlucoseSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041CBB6E2A3013BB00A21EEB /* GlucoseSample.swift */; };
@@ -116,13 +121,6 @@
 			remoteGlobalIDString = 04C35F6E2A429D2D00FEEF0E;
 			remoteInfo = "Beaties iOS";
 		};
-		04584F0C2A67BD2C00313AA3 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 04B42E932A23DEE700E68358 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 04584EFA2A67BD2B00313AA3;
-			remoteInfo = PhoneMain;
-		};
 		04584F332A67BDC700313AA3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 04B42E932A23DEE700E68358 /* Project object */;
@@ -144,26 +142,12 @@
 			remoteGlobalIDString = 04D53CAD2A42A43F00089723;
 			remoteInfo = HealthConnect;
 		};
-		04584F5D2A67CC3500313AA3 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 04B42E932A23DEE700E68358 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 04584F582A67CC3400313AA3;
-			remoteInfo = Printing;
-		};
 		04584F682A67CC8B00313AA3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 04B42E932A23DEE700E68358 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 04584F582A67CC3400313AA3;
 			remoteInfo = Printing;
-		};
-		04584F732A67CDA700313AA3 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 04B42E932A23DEE700E68358 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 04584F6E2A67CDA600313AA3;
-			remoteInfo = PhoneEntry;
 		};
 		04584F7E2A67CDE600313AA3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -173,6 +157,41 @@
 			remoteInfo = PhoneEntry;
 		};
 		04584F822A67CF4600313AA3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04B42E932A23DEE700E68358 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04D53CAD2A42A43F00089723;
+			remoteInfo = HealthConnect;
+		};
+		046417AC2A6A616B00777D69 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04B42E932A23DEE700E68358 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 046417A72A6A616B00777D69;
+			remoteInfo = PhoneRoot;
+		};
+		046417CA2A6A62CC00777D69 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04B42E932A23DEE700E68358 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04D53CAD2A42A43F00089723;
+			remoteInfo = HealthConnect;
+		};
+		046417D12A6A639300777D69 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04B42E932A23DEE700E68358 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 046417BB2A6A61AF00777D69;
+			remoteInfo = PhoneOnboarding;
+		};
+		046417D62A6A63E300777D69 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04B42E932A23DEE700E68358 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04584EFA2A67BD2B00313AA3;
+			remoteInfo = PhoneMain;
+		};
+		046417DD2A6A666D00777D69 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 04B42E932A23DEE700E68358 /* Project object */;
 			proxyType = 1;
@@ -213,13 +232,6 @@
 			proxyType = 1;
 			remoteGlobalIDString = 04C35F6E2A429D2D00FEEF0E;
 			remoteInfo = "Beaties iOS";
-		};
-		04D53CBF2A42A43F00089723 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 04B42E932A23DEE700E68358 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 04D53CAD2A42A43F00089723;
-			remoteInfo = HealthConnect;
 		};
 		04D53CCB2A42A57000089723 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -263,6 +275,30 @@
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		046417CC2A6A62CC00777D69 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				046417D02A6A639300777D69 /* PhoneOnboarding.framework in Embed Frameworks */,
+				046417C92A6A62CC00777D69 /* HealthConnect.framework in Embed Frameworks */,
+				046417D52A6A63E300777D69 /* PhoneMain.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		046417DF2A6A666D00777D69 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				046417DC2A6A666D00777D69 /* HealthConnect.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		0489D5382A23E0420079932E /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -293,10 +329,7 @@
 			dstSubfolderSpec = 10;
 			files = (
 				04584F362A67BDC700313AA3 /* Assets.framework in Embed Frameworks */,
-				04584F602A67CC3500313AA3 /* Printing.framework in Embed Frameworks */,
-				04584F0F2A67BD2C00313AA3 /* PhoneMain.framework in Embed Frameworks */,
-				04D53CC22A42A43F00089723 /* HealthConnect.framework in Embed Frameworks */,
-				04584F762A67CDA700313AA3 /* PhoneEntry.framework in Embed Frameworks */,
+				046417AF2A6A616B00777D69 /* PhoneRoot.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -359,6 +392,11 @@
 		0464179C2A6A569B00777D69 /* EntryToolbarContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryToolbarContent.swift; sourceTree = "<group>"; };
 		0464179F2A6A581D00777D69 /* EntryCancelToolbarButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryCancelToolbarButton.swift; sourceTree = "<group>"; };
 		046417A12A6A584700777D69 /* EntryDoneToolbarButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryDoneToolbarButton.swift; sourceTree = "<group>"; };
+		046417A82A6A616B00777D69 /* PhoneRoot.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PhoneRoot.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		046417B42A6A619000777D69 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		046417BC2A6A61AF00777D69 /* PhoneOnboarding.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PhoneOnboarding.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		046417CD2A6A631600777D69 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		046417D82A6A63FA00777D69 /* DeniedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeniedView.swift; sourceTree = "<group>"; };
 		04790A482A4D7EA700EB672D /* NumberButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberButtonStyle.swift; sourceTree = "<group>"; };
 		0489D5392A23E1A70079932E /* HealthRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthRepository.swift; sourceTree = "<group>"; };
 		0489D53B2A23E4450079932E /* Values.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Values.swift; sourceTree = "<group>"; };
@@ -447,6 +485,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		046417A52A6A616B00777D69 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				046417CF2A6A639300777D69 /* PhoneOnboarding.framework in Frameworks */,
+				046417C82A6A62CC00777D69 /* HealthConnect.framework in Frameworks */,
+				046417D42A6A63E300777D69 /* PhoneMain.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		046417B92A6A61AF00777D69 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				046417DB2A6A666D00777D69 /* HealthConnect.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		0489D5462A23EAE10079932E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -469,10 +525,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				04584F352A67BDC700313AA3 /* Assets.framework in Frameworks */,
-				04584F5F2A67CC3500313AA3 /* Printing.framework in Frameworks */,
-				04584F0E2A67BD2C00313AA3 /* PhoneMain.framework in Frameworks */,
-				04D53CC12A42A43F00089723 /* HealthConnect.framework in Frameworks */,
-				04584F752A67CDA700313AA3 /* PhoneEntry.framework in Frameworks */,
+				046417AE2A6A616B00777D69 /* PhoneRoot.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -635,6 +688,23 @@
 			path = "Navigation Bar";
 			sourceTree = "<group>";
 		};
+		046417B32A6A617D00777D69 /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				046417B42A6A619000777D69 /* RootView.swift */,
+			);
+			path = Root;
+			sourceTree = "<group>";
+		};
+		046417C72A6A61C400777D69 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				046417CD2A6A631600777D69 /* OnboardingView.swift */,
+				046417D82A6A63FA00777D69 /* DeniedView.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
 		0489D5312A23DF840079932E /* Sources */ = {
 			isa = PBXGroup;
 			children = (
@@ -724,6 +794,8 @@
 				04584F2F2A67BDC700313AA3 /* Assets.framework */,
 				04584F592A67CC3500313AA3 /* Printing.framework */,
 				04584F6F2A67CDA600313AA3 /* PhoneEntry.framework */,
+				046417A82A6A616B00777D69 /* PhoneRoot.framework */,
+				046417BC2A6A61AF00777D69 /* PhoneOnboarding.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -750,6 +822,8 @@
 		04C35F702A429D2D00FEEF0E /* Beaties iOS */ = {
 			isa = PBXGroup;
 			children = (
+				046417C72A6A61C400777D69 /* Onboarding */,
+				046417B32A6A617D00777D69 /* Root */,
 				04D53CDF2A42CCC500089723 /* Beaties iOS.entitlements */,
 				04584F3B2A67BDE800313AA3 /* Assets.xcassets */,
 				04584F892A67D68F00313AA3 /* Localizable.xcstrings */,
@@ -818,6 +892,20 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		04584F6A2A67CDA600313AA3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		046417A32A6A616B00777D69 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		046417B72A6A61AF00777D69 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -959,6 +1047,48 @@
 			productReference = 04584F6F2A67CDA600313AA3 /* PhoneEntry.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		046417A72A6A616B00777D69 /* PhoneRoot */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 046417B02A6A616C00777D69 /* Build configuration list for PBXNativeTarget "PhoneRoot" */;
+			buildPhases = (
+				046417A32A6A616B00777D69 /* Headers */,
+				046417A42A6A616B00777D69 /* Sources */,
+				046417A52A6A616B00777D69 /* Frameworks */,
+				046417A62A6A616B00777D69 /* Resources */,
+				046417CC2A6A62CC00777D69 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				046417CB2A6A62CC00777D69 /* PBXTargetDependency */,
+				046417D22A6A639300777D69 /* PBXTargetDependency */,
+				046417D72A6A63E300777D69 /* PBXTargetDependency */,
+			);
+			name = PhoneRoot;
+			productName = PhoneRoot;
+			productReference = 046417A82A6A616B00777D69 /* PhoneRoot.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		046417BB2A6A61AF00777D69 /* PhoneOnboarding */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 046417C42A6A61B000777D69 /* Build configuration list for PBXNativeTarget "PhoneOnboarding" */;
+			buildPhases = (
+				046417B72A6A61AF00777D69 /* Headers */,
+				046417B82A6A61AF00777D69 /* Sources */,
+				046417B92A6A61AF00777D69 /* Frameworks */,
+				046417BA2A6A61AF00777D69 /* Resources */,
+				046417DF2A6A666D00777D69 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				046417DE2A6A666D00777D69 /* PBXTargetDependency */,
+			);
+			name = PhoneOnboarding;
+			productName = PhoneOnboarding;
+			productReference = 046417BC2A6A61AF00777D69 /* PhoneOnboarding.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		0489D5482A23EAE10079932E /* TopLevel */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0489D54D2A23EAE10079932E /* Build configuration list for PBXNativeTarget "TopLevel" */;
@@ -1014,11 +1144,8 @@
 			);
 			dependencies = (
 				04C35F802A429D7500FEEF0E /* PBXTargetDependency */,
-				04D53CC02A42A43F00089723 /* PBXTargetDependency */,
-				04584F0D2A67BD2C00313AA3 /* PBXTargetDependency */,
 				04584F342A67BDC700313AA3 /* PBXTargetDependency */,
-				04584F5E2A67CC3500313AA3 /* PBXTargetDependency */,
-				04584F742A67CDA700313AA3 /* PBXTargetDependency */,
+				046417AD2A6A616B00777D69 /* PBXTargetDependency */,
 			);
 			name = "Beaties iOS";
 			productName = "Beaties iOS";
@@ -1112,6 +1239,12 @@
 						CreatedOnToolsVersion = 15.0;
 						LastSwiftMigration = 1500;
 					};
+					046417A72A6A616B00777D69 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					046417BB2A6A61AF00777D69 = {
+						CreatedOnToolsVersion = 15.0;
+					};
 					0489D5482A23EAE10079932E = {
 						CreatedOnToolsVersion = 14.3;
 						LastSwiftMigration = 1430;
@@ -1158,6 +1291,8 @@
 				04584F2E2A67BDC700313AA3 /* Assets */,
 				04584F582A67CC3400313AA3 /* Printing */,
 				04584F6E2A67CDA600313AA3 /* PhoneEntry */,
+				046417A72A6A616B00777D69 /* PhoneRoot */,
+				046417BB2A6A61AF00777D69 /* PhoneOnboarding */,
 			);
 		};
 /* End PBXProject section */
@@ -1200,6 +1335,20 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		04584F6D2A67CDA600313AA3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		046417A62A6A616B00777D69 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		046417BA2A6A61AF00777D69 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1323,6 +1472,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		046417A42A6A616B00777D69 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				046417B62A6A619900777D69 /* RootView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		046417B82A6A61AF00777D69 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				046417D32A6A63B200777D69 /* OnboardingView.swift in Sources */,
+				046417DA2A6A642400777D69 /* DeniedView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		0489D5452A23EAE10079932E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1404,11 +1570,6 @@
 			target = 04C35F6E2A429D2D00FEEF0E /* Beaties iOS */;
 			targetProxy = 04584F062A67BD2C00313AA3 /* PBXContainerItemProxy */;
 		};
-		04584F0D2A67BD2C00313AA3 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 04584EFA2A67BD2B00313AA3 /* PhoneMain */;
-			targetProxy = 04584F0C2A67BD2C00313AA3 /* PBXContainerItemProxy */;
-		};
 		04584F342A67BDC700313AA3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 04584F2E2A67BDC700313AA3 /* Assets */;
@@ -1426,20 +1587,10 @@
 			target = 04D53CAD2A42A43F00089723 /* HealthConnect */;
 			targetProxy = 04584F452A67BF4A00313AA3 /* PBXContainerItemProxy */;
 		};
-		04584F5E2A67CC3500313AA3 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 04584F582A67CC3400313AA3 /* Printing */;
-			targetProxy = 04584F5D2A67CC3500313AA3 /* PBXContainerItemProxy */;
-		};
 		04584F692A67CC8B00313AA3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 04584F582A67CC3400313AA3 /* Printing */;
 			targetProxy = 04584F682A67CC8B00313AA3 /* PBXContainerItemProxy */;
-		};
-		04584F742A67CDA700313AA3 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 04584F6E2A67CDA600313AA3 /* PhoneEntry */;
-			targetProxy = 04584F732A67CDA700313AA3 /* PBXContainerItemProxy */;
 		};
 		04584F7F2A67CDE600313AA3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -1450,6 +1601,31 @@
 			isa = PBXTargetDependency;
 			target = 04D53CAD2A42A43F00089723 /* HealthConnect */;
 			targetProxy = 04584F822A67CF4600313AA3 /* PBXContainerItemProxy */;
+		};
+		046417AD2A6A616B00777D69 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 046417A72A6A616B00777D69 /* PhoneRoot */;
+			targetProxy = 046417AC2A6A616B00777D69 /* PBXContainerItemProxy */;
+		};
+		046417CB2A6A62CC00777D69 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04D53CAD2A42A43F00089723 /* HealthConnect */;
+			targetProxy = 046417CA2A6A62CC00777D69 /* PBXContainerItemProxy */;
+		};
+		046417D22A6A639300777D69 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 046417BB2A6A61AF00777D69 /* PhoneOnboarding */;
+			targetProxy = 046417D12A6A639300777D69 /* PBXContainerItemProxy */;
+		};
+		046417D72A6A63E300777D69 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04584EFA2A67BD2B00313AA3 /* PhoneMain */;
+			targetProxy = 046417D62A6A63E300777D69 /* PBXContainerItemProxy */;
+		};
+		046417DE2A6A666D00777D69 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04D53CAD2A42A43F00089723 /* HealthConnect */;
+			targetProxy = 046417DD2A6A666D00777D69 /* PBXContainerItemProxy */;
 		};
 		0489D5562A23ECBA0079932E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -1475,11 +1651,6 @@
 			isa = PBXTargetDependency;
 			target = 04C35F6E2A429D2D00FEEF0E /* Beaties iOS */;
 			targetProxy = 04D53CB92A42A43F00089723 /* PBXContainerItemProxy */;
-		};
-		04D53CC02A42A43F00089723 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 04D53CAD2A42A43F00089723 /* HealthConnect */;
-			targetProxy = 04D53CBF2A42A43F00089723 /* PBXContainerItemProxy */;
 		};
 		04D53CCC2A42A57000089723 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -1940,6 +2111,162 @@
 				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
 				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cocoatype.PhoneEntry;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		046417B12A6A616C00777D69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 287EDDET2B;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2023 Cocoatype, LLC. All rights reserved.";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cocoatype.PhoneRoot;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		046417B22A6A616C00777D69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 287EDDET2B;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2023 Cocoatype, LLC. All rights reserved.";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cocoatype.PhoneRoot;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		046417C52A6A61B000777D69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 287EDDET2B;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2023 Cocoatype, LLC. All rights reserved.";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cocoatype.PhoneOnboarding;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		046417C62A6A61B000777D69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 287EDDET2B;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2023 Cocoatype, LLC. All rights reserved.";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cocoatype.PhoneOnboarding;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -2546,6 +2873,24 @@
 			buildConfigurations = (
 				04584F782A67CDA800313AA3 /* Debug */,
 				04584F792A67CDA800313AA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		046417B02A6A616C00777D69 /* Build configuration list for PBXNativeTarget "PhoneRoot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				046417B12A6A616C00777D69 /* Debug */,
+				046417B22A6A616C00777D69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		046417C42A6A61B000777D69 /* Build configuration list for PBXNativeTarget "PhoneOnboarding" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				046417C52A6A61B000777D69 /* Debug */,
+				046417C62A6A61B000777D69 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

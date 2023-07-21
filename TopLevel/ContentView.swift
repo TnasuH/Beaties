@@ -29,7 +29,7 @@ public struct ContentView: View {
         }
         .task {
             do {
-                let accessStatus = await repository.accessStatus
+                let accessStatus = repository.accessStatus
                 switch accessStatus {
                 case .undetermined:
                     try await repository.requestAccess()

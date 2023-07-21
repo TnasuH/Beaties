@@ -29,7 +29,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "04C35F6E2A429D2D00FEEF0E"
-               BuildableName = "Beaties iOS.app"
+               BuildableName = "Beaties.app"
                BlueprintName = "Beaties iOS"
                ReferencedContainer = "container:Beaties.xcodeproj">
             </BuildableReference>

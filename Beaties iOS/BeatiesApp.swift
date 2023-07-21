@@ -1,11 +1,11 @@
-import PhoneMain
+import PhoneRoot
 import SwiftUI
 
 @main
 struct BeatiesApp: App {
     var body: some Scene {
         WindowGroup {
-            MainView()
+            RootView()
         }
     }
 }

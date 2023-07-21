@@ -70,6 +70,9 @@ enum PrimaryViewPreviews: PreviewProvider {
 }
 
 private struct PreviewHealthRepository: HealthRepository {
+    var accessStatus: AuthorizationStatus { .allowed }
+    func requestAccess() async throws {}
+
     func addGlucoseValue(_ value: Double) async throws {}
     
     func samplesFromToday() async throws -> [GlucoseSample] {

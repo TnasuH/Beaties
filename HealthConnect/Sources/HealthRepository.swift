@@ -5,6 +5,9 @@ public protocol HealthRepository {
     func addGlucoseValue(_ value: Double) async throws
     func samplesFromToday() async throws -> [GlucoseSample]
     func samplesFromTwoWeeks() async throws -> [GlucoseSample]
+
+    var accessStatus: AuthorizationStatus { get }
+    func requestAccess() async throws
 }
 
 public actor HealthKitRepository: HealthRepository {
@@ -17,7 +20,7 @@ public actor HealthKitRepository: HealthRepository {
         self.store = store
     }
 
-    public var accessStatus: AuthorizationStatus {
+    nonisolated public var accessStatus: AuthorizationStatus {
         let healthStatus = store.authorizationStatus(for: Values.glucoseType)
         return AuthorizationStatus(healthStatus)
     }
