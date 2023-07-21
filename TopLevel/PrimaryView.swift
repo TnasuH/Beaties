@@ -68,22 +68,3 @@ enum PrimaryViewPreviews: PreviewProvider {
         }
     }
 }
-
-private struct PreviewHealthRepository: HealthRepository {
-    var accessStatus: AuthorizationStatus { .allowed }
-    func requestAccess() async throws {}
-
-    func addGlucoseValue(_ value: Double) async throws {}
-    
-    func samplesFromToday() async throws -> [GlucoseSample] {
-        [
-            GlucoseSample(id: UUID(), value: 120, date: Date())
-        ]
-    }
-
-    func samplesFromTwoWeeks() async throws -> [GlucoseSample] {
-        [
-            GlucoseSample(id: UUID(), value: 120, date: Date())
-        ]
-    }
-}
