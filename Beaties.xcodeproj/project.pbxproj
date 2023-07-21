@@ -51,6 +51,11 @@
 		04584F942A67D9D600313AA3 /* PrintEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04584F932A67D9D600313AA3 /* PrintEntry.swift */; };
 		04584F962A67D9F300313AA3 /* PrintHeaderRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04584F952A67D9F300313AA3 /* PrintHeaderRow.swift */; };
 		04584F982A67DA0200313AA3 /* PrintDataRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04584F972A67DA0200313AA3 /* PrintDataRow.swift */; };
+		046417992A6A557000777D69 /* EntryForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046417982A6A557000777D69 /* EntryForm.swift */; };
+		0464179B2A6A55AD00777D69 /* MealTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0464179A2A6A55AD00777D69 /* MealTime.swift */; };
+		0464179D2A6A569B00777D69 /* EntryToolbarContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0464179C2A6A569B00777D69 /* EntryToolbarContent.swift */; };
+		046417A02A6A581D00777D69 /* EntryCancelToolbarButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0464179F2A6A581D00777D69 /* EntryCancelToolbarButton.swift */; };
+		046417A22A6A584700777D69 /* EntryDoneToolbarButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046417A12A6A584700777D69 /* EntryDoneToolbarButton.swift */; };
 		04790A492A4D7EA700EB672D /* NumberButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04790A482A4D7EA700EB672D /* NumberButtonStyle.swift */; };
 		0489D5522A23ECAC0079932E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B42EA62A23DEE700E68358 /* ContentView.swift */; };
 		0489D5532A23ECBA0079932E /* TopLevel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0489D5492A23EAE10079932E /* TopLevel.framework */; };
@@ -349,6 +354,11 @@
 		04584F932A67D9D600313AA3 /* PrintEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrintEntry.swift; sourceTree = "<group>"; };
 		04584F952A67D9F300313AA3 /* PrintHeaderRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrintHeaderRow.swift; sourceTree = "<group>"; };
 		04584F972A67DA0200313AA3 /* PrintDataRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrintDataRow.swift; sourceTree = "<group>"; };
+		046417982A6A557000777D69 /* EntryForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryForm.swift; sourceTree = "<group>"; };
+		0464179A2A6A55AD00777D69 /* MealTime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealTime.swift; sourceTree = "<group>"; };
+		0464179C2A6A569B00777D69 /* EntryToolbarContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryToolbarContent.swift; sourceTree = "<group>"; };
+		0464179F2A6A581D00777D69 /* EntryCancelToolbarButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryCancelToolbarButton.swift; sourceTree = "<group>"; };
+		046417A12A6A584700777D69 /* EntryDoneToolbarButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryDoneToolbarButton.swift; sourceTree = "<group>"; };
 		04790A482A4D7EA700EB672D /* NumberButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberButtonStyle.swift; sourceTree = "<group>"; };
 		0489D5392A23E1A70079932E /* HealthRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthRepository.swift; sourceTree = "<group>"; };
 		0489D53B2A23E4450079932E /* Values.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Values.swift; sourceTree = "<group>"; };
@@ -368,7 +378,7 @@
 		04B42EA62A23DEE700E68358 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		04B42EA82A23DEE800E68358 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04B42EAB2A23DEE800E68358 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		04C35F6F2A429D2D00FEEF0E /* Beaties iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Beaties iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		04C35F6F2A429D2D00FEEF0E /* Beaties.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Beaties.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04C35F712A429D2D00FEEF0E /* BeatiesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeatiesApp.swift; sourceTree = "<group>"; };
 		04C35F752A429D2D00FEEF0E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04C35F782A429D2D00FEEF0E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -586,6 +596,9 @@
 			isa = PBXGroup;
 			children = (
 				04584F7A2A67CDC500313AA3 /* EntryView.swift */,
+				0464179E2A6A570C00777D69 /* Navigation Bar */,
+				0464179A2A6A55AD00777D69 /* MealTime.swift */,
+				046417982A6A557000777D69 /* EntryForm.swift */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -610,6 +623,16 @@
 				04D53CDD2A42AB3800089723 /* PrintService.swift */,
 			);
 			path = Sources;
+			sourceTree = "<group>";
+		};
+		0464179E2A6A570C00777D69 /* Navigation Bar */ = {
+			isa = PBXGroup;
+			children = (
+				0464179C2A6A569B00777D69 /* EntryToolbarContent.swift */,
+				0464179F2A6A581D00777D69 /* EntryCancelToolbarButton.swift */,
+				046417A12A6A584700777D69 /* EntryDoneToolbarButton.swift */,
+			);
+			path = "Navigation Bar";
 			sourceTree = "<group>";
 		};
 		0489D5312A23DF840079932E /* Sources */ = {
@@ -693,7 +716,7 @@
 				0489D5492A23EAE10079932E /* TopLevel.framework */,
 				04EFFEF62A26CC6F008F5358 /* ComplicationExtension.appex */,
 				041CBB622A3011F800A21EEB /* DailyChart.framework */,
-				04C35F6F2A429D2D00FEEF0E /* Beaties iOS.app */,
+				04C35F6F2A429D2D00FEEF0E /* Beaties.app */,
 				04D53CAE2A42A43F00089723 /* HealthConnect.framework */,
 				04D53CB52A42A43F00089723 /* HealthConnectTests.xctest */,
 				04584EFB2A67BD2B00313AA3 /* PhoneMain.framework */,
@@ -999,7 +1022,7 @@
 			);
 			name = "Beaties iOS";
 			productName = "Beaties iOS";
-			productReference = 04C35F6F2A429D2D00FEEF0E /* Beaties iOS.app */;
+			productReference = 04C35F6F2A429D2D00FEEF0E /* Beaties.app */;
 			productType = "com.apple.product-type.application";
 		};
 		04D53CAD2A42A43F00089723 /* HealthConnect */ = {
@@ -1291,6 +1314,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				046417A22A6A584700777D69 /* EntryDoneToolbarButton.swift in Sources */,
+				0464179D2A6A569B00777D69 /* EntryToolbarContent.swift in Sources */,
+				046417992A6A557000777D69 /* EntryForm.swift in Sources */,
+				046417A02A6A581D00777D69 /* EntryCancelToolbarButton.swift in Sources */,
+				0464179B2A6A55AD00777D69 /* MealTime.swift in Sources */,
 				04584F7B2A67CDC500313AA3 /* EntryView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -2213,7 +2241,7 @@
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.cocoatype.Beaties;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Beaties;
 				SDKROOT = iphoneos;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
@@ -2256,7 +2284,7 @@
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.cocoatype.Beaties;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Beaties;
 				SDKROOT = iphoneos;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
