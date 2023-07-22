@@ -5,7 +5,6 @@ struct EntryForm: View {
     @Binding private var glucose: String
     @Binding private var notes: String
     @Binding private var mealTime: MealTime
-
     init(date: Binding<Date>, glucose: Binding<String>, notes: Binding<String>, mealTime: Binding<MealTime>) {
         _date = date
         _glucose = glucose
@@ -24,6 +23,7 @@ struct EntryForm: View {
                         EmptyView()
                     }.multilineTextAlignment(.trailing)
                         .keyboardType(.decimalPad)
+                        .focused($isGlucoseFocused)
                     Text(verbatim: "mg/dL")
                 }
             }
@@ -39,8 +39,10 @@ struct EntryForm: View {
             Section("EntryView.notesSection.title") {
                 TextEditor(text: $notes)
             }
-        }
+        }.task { isGlucoseFocused = true }
     }
+
+    @FocusState private var isGlucoseFocused: Bool
 }
 
 #Preview {
