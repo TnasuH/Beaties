@@ -9,9 +9,9 @@ struct ListRow: View {
 
     var body: some View {
         HStack(alignment: .lastTextBaseline) {
-            Text("\(entry.formattedValue)\(entry.isFirstEntry ? " mg/dL" : "")")
+            Text(entry.formattedValue)
             Spacer()
-            Text("\(entry.formattedDate) at \(entry.formattedTime)")
+            Text(entry.formattedDateTime)
                 .foregroundStyle(.secondary)
         }
     }
@@ -20,8 +20,8 @@ struct ListRow: View {
 #Preview {
     List {
         Group {
-            ListRow(ListEntry(GlucoseSample(id: UUID(), value: 120, date: Date()), isFirstEntry: true))
-            ListRow(ListEntry(GlucoseSample(id: UUID(), value: 80, date: Date()), isFirstEntry: false))
+            ListRow(ListEntry(GlucoseSample(id: UUID(), value: 120, date: Date()), isFirstEntry: true, isSingleDay: true))
+            ListRow(ListEntry(GlucoseSample(id: UUID(), value: 80, date: Date()), isFirstEntry: false, isSingleDay: true))
         }
     }
 }

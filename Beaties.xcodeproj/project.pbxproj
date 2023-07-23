@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0413DF092A6BD05F004297A2 /* PhoneChart.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0413DF032A6BD05E004297A2 /* PhoneChart.framework */; };
+		0413DF0A2A6BD05F004297A2 /* PhoneChart.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0413DF032A6BD05E004297A2 /* PhoneChart.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		0413DF112A6BD0F8004297A2 /* HealthConnect.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04D53CAE2A42A43F00089723 /* HealthConnect.framework */; };
+		0413DF122A6BD0F8004297A2 /* HealthConnect.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 04D53CAE2A42A43F00089723 /* HealthConnect.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		0413DF162A6BD2AE004297A2 /* ChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0413DF0F2A6BD080004297A2 /* ChartView.swift */; };
+		0413DF192A6BD30D004297A2 /* ChartEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0413DF172A6BD2EE004297A2 /* ChartEntry.swift */; };
+		0413DF1A2A6BD790004297A2 /* PhoneChart.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0413DF032A6BD05E004297A2 /* PhoneChart.framework */; };
+		0413DF1B2A6BD790004297A2 /* PhoneChart.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0413DF032A6BD05E004297A2 /* PhoneChart.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		0418F4D12A48FB010098B90B /* EntryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0418F4D02A48FB010098B90B /* EntryView.swift */; };
 		041CBB692A30121100A21EEB /* ChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041CBB5B2A30020800A21EEB /* ChartView.swift */; };
 		041CBB6C2A3012DB00A21EEB /* ChartEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041CBB6B2A3012DB00A21EEB /* ChartEntry.swift */; };
@@ -108,6 +116,27 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		0413DF072A6BD05F004297A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04B42E932A23DEE700E68358 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0413DF022A6BD05E004297A2;
+			remoteInfo = PhoneChart;
+		};
+		0413DF132A6BD0F8004297A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04B42E932A23DEE700E68358 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04D53CAD2A42A43F00089723;
+			remoteInfo = HealthConnect;
+		};
+		0413DF1C2A6BD790004297A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04B42E932A23DEE700E68358 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0413DF022A6BD05E004297A2;
+			remoteInfo = PhoneChart;
+		};
 		041CBB772A30146100A21EEB /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 04B42E932A23DEE700E68358 /* Project object */;
@@ -272,6 +301,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		0413DF152A6BD0F8004297A2 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				0413DF122A6BD0F8004297A2 /* HealthConnect.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		0428D8F92A6A6B87007FD1C4 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -291,6 +331,7 @@
 			files = (
 				04584F7D2A67CDE600313AA3 /* PhoneEntry.framework in Embed Frameworks */,
 				0428D8FE2A6A6D45007FD1C4 /* PhoneList.framework in Embed Frameworks */,
+				0413DF1B2A6BD790004297A2 /* PhoneChart.framework in Embed Frameworks */,
 				04584F3F2A67BF2500313AA3 /* Assets.framework in Embed Frameworks */,
 				04584F672A67CC8B00313AA3 /* Printing.framework in Embed Frameworks */,
 				04584F442A67BF4A00313AA3 /* HealthConnect.framework in Embed Frameworks */,
@@ -364,6 +405,7 @@
 			files = (
 				04584F362A67BDC700313AA3 /* Assets.framework in Embed Frameworks */,
 				046417AF2A6A616B00777D69 /* PhoneRoot.framework in Embed Frameworks */,
+				0413DF0A2A6BD05F004297A2 /* PhoneChart.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -393,6 +435,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		0413DF032A6BD05E004297A2 /* PhoneChart.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PhoneChart.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0413DF0F2A6BD080004297A2 /* ChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartView.swift; sourceTree = "<group>"; };
+		0413DF172A6BD2EE004297A2 /* ChartEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartEntry.swift; sourceTree = "<group>"; };
 		0418F4D02A48FB010098B90B /* EntryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryView.swift; sourceTree = "<group>"; };
 		041CBB5B2A30020800A21EEB /* ChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartView.swift; sourceTree = "<group>"; };
 		041CBB622A3011F800A21EEB /* DailyChart.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DailyChart.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -475,6 +520,14 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		0413DF002A6BD05E004297A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0413DF112A6BD0F8004297A2 /* HealthConnect.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		041CBB5F2A3011F700A21EEB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -497,6 +550,7 @@
 			files = (
 				04584F7C2A67CDE600313AA3 /* PhoneEntry.framework in Frameworks */,
 				0428D8FD2A6A6D45007FD1C4 /* PhoneList.framework in Frameworks */,
+				0413DF1A2A6BD790004297A2 /* PhoneChart.framework in Frameworks */,
 				04584F3E2A67BF2500313AA3 /* Assets.framework in Frameworks */,
 				04584F662A67CC8B00313AA3 /* Printing.framework in Frameworks */,
 				04584F432A67BF4A00313AA3 /* HealthConnect.framework in Frameworks */,
@@ -574,6 +628,7 @@
 			files = (
 				04584F352A67BDC700313AA3 /* Assets.framework in Frameworks */,
 				046417AE2A6A616B00777D69 /* PhoneRoot.framework in Frameworks */,
+				0413DF092A6BD05F004297A2 /* PhoneChart.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -604,6 +659,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0413DF0E2A6BD077004297A2 /* Chart */ = {
+			isa = PBXGroup;
+			children = (
+				0413DF0F2A6BD080004297A2 /* ChartView.swift */,
+				0413DF172A6BD2EE004297A2 /* ChartEntry.swift */,
+			);
+			path = Chart;
+			sourceTree = "<group>";
+		};
 		041CBB632A3011F800A21EEB /* DailyChart */ = {
 			isa = PBXGroup;
 			children = (
@@ -856,6 +920,7 @@
 				046417A82A6A616B00777D69 /* PhoneRoot.framework */,
 				046417BC2A6A61AF00777D69 /* PhoneOnboarding.framework */,
 				0428D8E72A6A6B51007FD1C4 /* PhoneList.framework */,
+				0413DF032A6BD05E004297A2 /* PhoneChart.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -882,6 +947,7 @@
 		04C35F702A429D2D00FEEF0E /* Beaties iOS */ = {
 			isa = PBXGroup;
 			children = (
+				0413DF0E2A6BD077004297A2 /* Chart */,
 				0428D8F22A6A6B5B007FD1C4 /* List */,
 				046417C72A6A61C400777D69 /* Onboarding */,
 				046417B32A6A617D00777D69 /* Root */,
@@ -924,6 +990,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		0413DEFE2A6BD05E004297A2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		041CBB5D2A3011F700A21EEB /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -997,6 +1070,26 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		0413DF022A6BD05E004297A2 /* PhoneChart */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0413DF0D2A6BD05F004297A2 /* Build configuration list for PBXNativeTarget "PhoneChart" */;
+			buildPhases = (
+				0413DEFE2A6BD05E004297A2 /* Headers */,
+				0413DEFF2A6BD05E004297A2 /* Sources */,
+				0413DF002A6BD05E004297A2 /* Frameworks */,
+				0413DF012A6BD05E004297A2 /* Resources */,
+				0413DF152A6BD0F8004297A2 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0413DF142A6BD0F8004297A2 /* PBXTargetDependency */,
+			);
+			name = PhoneChart;
+			productName = PhoneChart;
+			productReference = 0413DF032A6BD05E004297A2 /* PhoneChart.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		041CBB612A3011F700A21EEB /* DailyChart */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 041CBB662A3011F800A21EEB /* Build configuration list for PBXNativeTarget "DailyChart" */;
@@ -1055,6 +1148,7 @@
 				04584F692A67CC8B00313AA3 /* PBXTargetDependency */,
 				04584F7F2A67CDE600313AA3 /* PBXTargetDependency */,
 				0428D9002A6A6D45007FD1C4 /* PBXTargetDependency */,
+				0413DF1D2A6BD790004297A2 /* PBXTargetDependency */,
 			);
 			name = PhoneMain;
 			productName = PhoneMain;
@@ -1235,6 +1329,7 @@
 				04C35F802A429D7500FEEF0E /* PBXTargetDependency */,
 				04584F342A67BDC700313AA3 /* PBXTargetDependency */,
 				046417AD2A6A616B00777D69 /* PBXTargetDependency */,
+				0413DF082A6BD05F004297A2 /* PBXTargetDependency */,
 			);
 			name = "Beaties iOS";
 			productName = "Beaties iOS";
@@ -1306,6 +1401,9 @@
 				LastUpgradeCheck = 1430;
 				ORGANIZATIONNAME = "Cocoatype, LLC";
 				TargetAttributes = {
+					0413DF022A6BD05E004297A2 = {
+						CreatedOnToolsVersion = 15.0;
+					};
 					041CBB612A3011F700A21EEB = {
 						CreatedOnToolsVersion = 15.0;
 					};
@@ -1387,11 +1485,19 @@
 				046417A72A6A616B00777D69 /* PhoneRoot */,
 				046417BB2A6A61AF00777D69 /* PhoneOnboarding */,
 				0428D8E62A6A6B51007FD1C4 /* PhoneList */,
+				0413DF022A6BD05E004297A2 /* PhoneChart */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		0413DF012A6BD05E004297A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		041CBB602A3011F700A21EEB /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1507,6 +1613,15 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		0413DEFF2A6BD05E004297A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0413DF162A6BD2AE004297A2 /* ChartView.swift in Sources */,
+				0413DF192A6BD30D004297A2 /* ChartEntry.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		041CBB5E2A3011F700A21EEB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1667,6 +1782,21 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		0413DF082A6BD05F004297A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0413DF022A6BD05E004297A2 /* PhoneChart */;
+			targetProxy = 0413DF072A6BD05F004297A2 /* PBXContainerItemProxy */;
+		};
+		0413DF142A6BD0F8004297A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04D53CAD2A42A43F00089723 /* HealthConnect */;
+			targetProxy = 0413DF132A6BD0F8004297A2 /* PBXContainerItemProxy */;
+		};
+		0413DF1D2A6BD790004297A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0413DF022A6BD05E004297A2 /* PhoneChart */;
+			targetProxy = 0413DF1C2A6BD790004297A2 /* PBXContainerItemProxy */;
+		};
 		041CBB782A30146100A21EEB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 041CBB612A3011F700A21EEB /* DailyChart */;
@@ -1787,6 +1917,84 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		0413DF0B2A6BD05F004297A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 287EDDET2B;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2023 Cocoatype, LLC. All rights reserved.";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cocoatype.PhoneChart;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		0413DF0C2A6BD05F004297A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 287EDDET2B;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2023 Cocoatype, LLC. All rights reserved.";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cocoatype.PhoneChart;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		041CBB672A3011F800A21EEB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -3026,6 +3234,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		0413DF0D2A6BD05F004297A2 /* Build configuration list for PBXNativeTarget "PhoneChart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0413DF0B2A6BD05F004297A2 /* Debug */,
+				0413DF0C2A6BD05F004297A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		041CBB662A3011F800A21EEB /* Build configuration list for PBXNativeTarget "DailyChart" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

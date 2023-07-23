@@ -1,5 +1,6 @@
 import Assets
 import HealthConnect
+import PhoneChart
 import PhoneEntry
 import PhoneList
 import SwiftUI
@@ -10,15 +11,33 @@ public struct MainView: View {
     public var body: some View {
         NavigationStack {
             List {
-                ListContent(samples: samples)
+                ChartView(samples: samples)
+                    .aspectRatio(16/9, contentMode: .fit)
+                    .listRowSeparator(.hidden)
+                    .padding(.top, 20)
+
+                Text("Today’s Entries")
+                    .font(.title2)
+                    .fontWeight(.bold)
+                    .foregroundStyle(.primary)
+                    .listRowSeparator(.hidden)
+                    .padding(.top, 20)
+                Section {
+                    ListContent(samples: samples, isSingleDay: true)
+                }
+//                Section {
+//                    ListContent(samples: samples)
+//                }
             }
+            .listStyle(.plain)
             .sheet(isPresented: $isDisplayingEntry) {
                 EntryView()
             }
+            .navigationBarTitleDisplayMode(.inline)
             .toolbar { MainToolbar(isDisplayingEntry: $isDisplayingEntry) }
         }.task {
             do {
-                samples = try await repository.samplesFromTwoWeeks()
+                samples = try await repository.samplesFromToday()
             } catch {
                 fatalError(String(describing: error))
             }
