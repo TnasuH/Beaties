@@ -31,13 +31,27 @@ public struct MainView: View {
             }
             .listStyle(.plain)
             .sheet(isPresented: $isDisplayingEntry) {
+                refreshSamples(animated: true)
+            } content: {
                 EntryView()
             }
             .navigationBarTitleDisplayMode(.inline)
             .toolbar { MainToolbar(isDisplayingEntry: $isDisplayingEntry) }
-        }.task {
+        }.onAppear {
+            refreshSamples(animated: false)
+        }
+    }
+
+    private func refreshSamples(animated: Bool) {
+        let animation: Animation? = animated ? .default : nil
+        Task {
             do {
-                samples = try await repository.samplesFromToday()
+                let newSamples = try await repository.samplesFromToday()
+                await MainActor.run {
+                    withAnimation(animation) {
+                        samples = newSamples
+                    }
+                }
             } catch {
                 fatalError(String(describing: error))
             }

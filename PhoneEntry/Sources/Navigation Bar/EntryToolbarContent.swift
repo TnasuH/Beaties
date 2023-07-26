@@ -1,8 +1,9 @@
 import SwiftUI
 
 struct EntryToolbarContent: ToolbarContent {
-    init(glucose: Binding<String>) {
+    init(glucose: Binding<String>, doneAction: @escaping () async -> Void) {
         _glucose = glucose
+        self.doneAction = doneAction
     }
 
     var body: some ToolbarContent {
@@ -11,9 +12,10 @@ struct EntryToolbarContent: ToolbarContent {
         }
 
         ToolbarItem(placement: .primaryAction) {
-            EntryDoneToolbarButton(glucose: $glucose)
+            EntryDoneToolbarButton(glucose: $glucose, doneAction: doneAction)
         }
     }
 
     @Binding private var glucose: String
+    private let doneAction: () async -> Void
 }

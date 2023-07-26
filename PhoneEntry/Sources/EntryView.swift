@@ -1,3 +1,4 @@
+import HealthConnect
 import SwiftUI
 
 public struct EntryView: View {
@@ -10,10 +11,16 @@ public struct EntryView: View {
                 glucose: $glucose,
                 notes: $notes,
                 mealTime: $mealTime
-            ).toolbar { EntryToolbarContent(glucose: $glucose) }
+            ).toolbar {
+                EntryToolbarContent(glucose: $glucose) {
+                    guard let glucoseValue = Double(glucose) else { return }
+                    try? await repository.addGlucoseValue(glucoseValue)
+                }
+            }
         }
     }
 
+    @Environment(\.healthRepository) private var repository
     @State private var date = Date()
     @State private var glucose = ""
     @State private var notes = ""
